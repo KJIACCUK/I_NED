@@ -1,0 +1,5 @@
+запустить файл BDE32.exe
+после установки скопировать файл IDAPI32.CFG в папку с установленной программой  C:\Program Files\Common Files\Borland Shared\BDE,
+ заменить его
+файлы sqlnet.ora и tnsnames.ora скопировать ф папку с орклом
+C:\oracle\product\10.2.0\client_1\NETWORK\ADMIN\SAMPLE
