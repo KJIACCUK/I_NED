@@ -153,6 +153,13 @@ class SiteController extends Controller
 
     public function actionSingleproduct()
     {
-        return $this->render('singleproduct');
+        if(isset($_GET['id']) && $_GET['id'] != "" && filter_var($_GET['id'], FILTER_VALIDATE_INT))
+        {
+            $products = ProductsForm::find()->where(['id' => $_GET['id']])->asArray()->one();
+
+            if (isset($products) && count($products)>0 )
+                return $this->render('singleproduct', compact('products'));
+        }
+            return $this->redirect(['site/shoplist']);
     }
 }
