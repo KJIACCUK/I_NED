@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="map-area">
                     <div class="contact-map">
                         <div id="hastech">
-                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A33642dad274f05d2dcc847cd67234b2ee14bda087370f64346a9a229f003e949&amp;source=constructor" width="1120" height="350" frameborder="0"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4705.865542097702!2d27.653891!3d53.8618434!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcdf7a170a34b%3A0x1a32f05349b7a6f5!2z0JzQuNC90YHQutC40Lkg0LDQstGC0L7QvNC-0LHQuNC70YzQvdGL0Lkg0LfQsNCy0L7QtA!5e0!3m2!1sru!2sby!4v1518077645452" width="1130" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -73,19 +73,19 @@ $this->params['breadcrumbs'][] = $this->title;
                         <div class="form-group required">
                             <label class="col-md-2 control-label">Имя</label>
                             <div class="col-md-10">
-                                <input class="form-control" type="text" value="" name="name">
+                                <input class="form-control" type="text" value="" name="name" placeholder="Введите имя">
                             </div>
                         </div>
                         <div class="form-group required">
                             <label class="col-md-2 control-label">E-Mail</label>
                             <div class="col-md-10">
-                                <input class="form-control" type="text" value="" name="email">
+                                <input class="form-control" type="text" value="" name="email" placeholder="Введите адрес эл. почты">
                             </div>
                         </div>
                         <div class="form-group required">
                             <label class="col-md-2 control-label">Вопрос</label>
                             <div class="col-md-10">
-                                <textarea class="form-control" rows="10" name="message"></textarea>
+                                <textarea class="form-control" rows="10" name="message" placeholder="Введите текст сообщения"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12">
@@ -102,58 +102,4 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
 </section>
 <!-- contact content section end -->
-<!-- brand section start -->
-<section class="section-padding-top">
-    <div class="brand-logo">
-        <div class="barnd-bg">
-            <div class="container">
-                <div class="row text-center">
-                    <div id="brand-logo" class="re-owl-carousel21 owl-carousel product-slider owl-theme">
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/1.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/2.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/3.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/4.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/5.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/6.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/1.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/3.png" alt="" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- brand section end -->
 

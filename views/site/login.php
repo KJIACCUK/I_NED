@@ -49,20 +49,20 @@ $this->params['breadcrumbs'][] = $this->title;
                                 Логин (Email)
                                 <em>*</em>
                             </label>
-                            <input type="email">
+                            <input type="email" placeholder="Введите логин">
                         </p>
                         <p class="checkout-coupon top-down log a-an">
                             <label class="l-contact">
                                 Пароль
                                 <em>*</em>
                             </label>
-                            <input type="password">
+                            <input type="password" placeholder="Введите пароль">
                         </p>
                         <div class="forgot-password1">
-<!--                            <label class="inline2">-->
-<!--                                <input type="checkbox" name="rememberme7">-->
-<!--                                Запоминить меня <em>*</em>-->
-<!--                            </label>-->
+                            <label class="inline2">
+                                <input type="checkbox" name="rememberme7">
+                                Запоминить меня <em>*</em>
+                            </label>
 <!--                            <a class="forgot-password" href="--><?//=Url::toRoute('modal/sendemail')?><!--">Забыли пароль?</a>-->
                             <?php
                                 Modal::begin([
@@ -74,7 +74,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                         'class' => 'forgot-password '
                                     ]
                                 ]);
-                                echo '<label class="l-contact">Введите Email:</label>
+                                echo '<label class="l-contact">Введите адрес эл. почты:</label>
                                     <p class="checkout-coupon log a-an"><input type="email"></p>
                                     <input value="Отправить" class="btn btn-default mod-sub" type="submit">';
                                 Modal::end();
@@ -95,57 +95,3 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
 </div>
 <!-- login  content section end -->
-
-<section class="section-padding-top">
-    <div class="brand-logo">
-        <div class="barnd-bg">
-            <div class="container">
-                <div class="row text-center">
-                    <div id="brand-logo" class="re-owl-carousel21 owl-carousel product-slider owl-theme">
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/1.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/2.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/3.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/4.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/5.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/6.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/1.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/3.png" alt="" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- brand section end -->

@@ -2585,8 +2585,8 @@ h4.yith-wcwl-share-title {
     .modal:before {
         display: inline-block;
         vertical-align: middle;
-        content: " ";
-        height: 100%;
+        content: "";
+       /* height: 100%;*/
     }
 }
 
@@ -4664,7 +4664,7 @@ input.cart-plus-minus-box {
 }
 .contact-img-area {
   background-color: transparent;
-  background-image: url("img/bg-banner/bg-pagetitle.jpg");
+  background-image: url("img/bg-banner/1.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   padding: 200px 0 100px;

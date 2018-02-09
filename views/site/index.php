@@ -10,6 +10,8 @@ $this->title = 'Торговый дом МАЗ';
     <div class="main-slider an-si">
         <div class="bend niceties preview-2 hm-ver-1">
             <div id="ensign-nivoslider-2" class="slides">
+                <img src="img/slider/5.jpg" alt="" title="#slider-direction-3"  />
+                <img src="img/slider/6.jpg" alt="" title="#slider-direction-3"  />
                 <img src="img/slider/3.jpg" alt="" title="#slider-direction-3"  />
                 <img src="img/slider/4.jpg" alt="" title="#slider-direction-1"  />
             </div>
@@ -140,7 +142,7 @@ $this->title = 'Торговый дом МАЗ';
         <div class="row">
             <div class="col-xs-12">
                 <div class="section-title">
-                    <h3>Что то там о деталюхах</h3>
+                    <h3>Запчасти по категориям</h3>
                     <div class="section-icon">
                         <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
                     </div>
@@ -151,11 +153,11 @@ $this->title = 'Торговый дом МАЗ';
             <div class="col-xs-12">
                 <div class="product-tab nav nav-tabs">
                     <ul>
-                        <li class="active"><a data-toggle="tab" href="#all">1111</a></li>
-                        <li><a data-toggle="tab" href="#clothings">2222</a></li>
-                        <li><a data-toggle="tab" href="#shoes">3333</a></li>
-                        <li><a data-toggle="tab" href="#bags">4444</a></li>
-                        <li><a data-toggle="tab" href="#accessories">5555</a></li>
+                        <li class="active"><a data-toggle="tab" href="#all">Стандартные</a></li>
+                        <li><a data-toggle="tab" href="#clothings">АКПП</a></li>
+                        <li><a data-toggle="tab" href="#shoes">Радиаторы</a></li>
+                        <li><a data-toggle="tab" href="#bags">Сальники</a></li>
+                        <li><a data-toggle="tab" href="#accessories">Электрозапчасти</a></li>
                     </ul>
                 </div>
             </div>
@@ -178,17 +180,17 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">1</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
-                                <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
+                                <a href="" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
                                 <a data-placement="top" data-toggle="tooltip" href="#" data-original-title="Add To Wishlist"><i class="fa fa-heart"></i></a>
                                 <a title="" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Compare"><i class="fa fa-retweet"></i></a>
                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="fa fa-shopping-cart"></i></a>
@@ -208,13 +210,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">2</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -238,13 +240,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">3</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -265,13 +267,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">4</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -295,13 +297,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">5</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -325,13 +327,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">6</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -358,13 +360,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">7</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -388,13 +390,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">8</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -418,13 +420,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">9</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -445,13 +447,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">10</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -480,13 +482,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">11</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -510,13 +512,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">12</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -540,13 +542,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">13</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -567,13 +569,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">14</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -600,13 +602,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">15</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -627,13 +629,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">16</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -657,13 +659,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">17</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -687,13 +689,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">18</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -720,13 +722,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">19</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -750,13 +752,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">20</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -788,13 +790,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">21</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -815,13 +817,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">22</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -845,13 +847,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">23</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -875,13 +877,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">24</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -908,13 +910,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">25</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -935,13 +937,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">26</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -968,13 +970,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">27</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -998,13 +1000,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">28</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1028,13 +1030,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">29</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1055,13 +1057,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">30</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1093,13 +1095,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">31</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1123,13 +1125,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">32</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1153,13 +1155,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">33</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1180,13 +1182,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">34</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1213,13 +1215,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">35</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1243,13 +1245,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">36</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1273,13 +1275,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">37</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1303,13 +1305,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">38</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1333,13 +1335,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">38</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1363,13 +1365,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">39</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1401,13 +1403,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">40</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1431,13 +1433,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">41</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1464,13 +1466,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">42</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1491,13 +1493,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">43</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1521,13 +1523,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">44</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1551,13 +1553,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">45</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1581,13 +1583,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">46</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1608,13 +1610,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">47</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1641,13 +1643,13 @@ $this->title = 'Торговый дом МАЗ';
                                 <h3><a href="#">48</a></h3>
                                 <div class="star-price">
                                     <span class="price-left">$52.00</span>
-                                    <span class="star-right">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </span>
+<!--                                    <span class="star-right">-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star"></i>-->
+<!--                                                <i class="fa fa-star-half-o"></i>-->
+<!--                                            </span>-->
                                 </div>
                             </div>
                             <div class="actions-btn">
@@ -1762,7 +1764,7 @@ $this->title = 'Торговый дом МАЗ';
         <div class="row">
             <div class="col-xs-12">
                 <div class="section-title">
-                    <h3>Что то новое</h3>
+                    <h3>Новинки запчастей</h3>
                     <div class="section-icon">
                         <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
                     </div>
@@ -1784,16 +1786,16 @@ $this->title = 'Торговый дом МАЗ';
                         </div>
                         <div class="product-dsc">
                             <h3><a href="#">1</a></h3>
-                            <div class="star-price">
-                                <span class="price-left">$52.00</span>
-                                <span class="star-right">
-									        <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-half-o"></i>
-									    </span>
-                            </div>
+<!--                            <div class="star-price">-->
+<!--                                <span class="price-left">$52.00</span>-->
+<!--                                <span class="star-right">-->
+<!--									        <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star-half-o"></i>-->
+<!--									    </span>-->
+<!--                            </div>-->
                         </div>
                         <div class="actions-btn">
                             <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
@@ -1817,16 +1819,16 @@ $this->title = 'Торговый дом МАЗ';
                         </div>
                         <div class="product-dsc">
                             <h3><a href="#">2</a></h3>
-                            <div class="star-price">
-                                <span class="price-left">$52.00</span>
-                                <span class="star-right">
-									        <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-half-o"></i>
-									    </span>
-                            </div>
+<!--                            <div class="star-price">-->
+<!--                                <span class="price-left">$52.00</span>-->
+<!--                                <span class="star-right">-->
+<!--									        <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star-half-o"></i>-->
+<!--									    </span>-->
+<!--                            </div>-->
                         </div>
                         <div class="actions-btn">
                             <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
@@ -1847,16 +1849,16 @@ $this->title = 'Торговый дом МАЗ';
                         </div>
                         <div class="product-dsc">
                             <h3><a href="#">3</a></h3>
-                            <div class="star-price">
-                                <span class="price-left">$52.00</span>
-                                <span class="star-right">
-									        <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-half-o"></i>
-									    </span>
-                            </div>
+<!--                            <div class="star-price">-->
+<!--                                <span class="price-left">$52.00</span>-->
+<!--                                <span class="star-right">-->
+<!--									        <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star-half-o"></i>-->
+<!--									    </span>-->
+<!--                            </div>-->
                         </div>
                         <div class="actions-btn">
                             <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
@@ -1877,16 +1879,16 @@ $this->title = 'Торговый дом МАЗ';
                         </div>
                         <div class="product-dsc">
                             <h3><a href="#">4</a></h3>
-                            <div class="star-price">
-                                <span class="price-left">$52.00</span>
-                                <span class="star-right">
-									        <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-half-o"></i>
-									    </span>
-                            </div>
+<!--                            <div class="star-price">-->
+<!--                                <span class="price-left">$52.00</span>-->
+<!--                                <span class="star-right">-->
+<!--									        <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star-half-o"></i>-->
+<!--									    </span>-->
+<!--                            </div>-->
                         </div>
                         <div class="actions-btn">
                             <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
@@ -1910,16 +1912,16 @@ $this->title = 'Торговый дом МАЗ';
                         </div>
                         <div class="product-dsc">
                             <h3><a href="#">5</a></h3>
-                            <div class="star-price">
-                                <span class="price-left">$52.00</span>
-                                <span class="star-right">
-									        <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-half-o"></i>
-									    </span>
-                            </div>
+<!--                            <div class="star-price">-->
+<!--                                <span class="price-left">$52.00</span>-->
+<!--                                <span class="star-right">-->
+<!--									        <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star-half-o"></i>-->
+<!--									    </span>-->
+<!--                            </div>-->
                         </div>
                         <div class="actions-btn">
                             <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
@@ -1943,16 +1945,16 @@ $this->title = 'Торговый дом МАЗ';
                         </div>
                         <div class="product-dsc">
                             <h3><a href="#">6</a></h3>
-                            <div class="star-price">
-                                <span class="price-left">$52.00</span>
-                                <span class="star-right">
-									        <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-half-o"></i>
-									    </span>
-                            </div>
+<!--                            <div class="star-price">-->
+<!--                                <span class="price-left">$52.00</span>-->
+<!--                                <span class="star-right">-->
+<!--									        <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star"></i>-->
+<!--                                            <i class="fa fa-star-half-o"></i>-->
+<!--									    </span>-->
+<!--                            </div>-->
                         </div>
                         <div class="actions-btn">
                             <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Quick View"><i class="fa fa-eye"></i></a>
@@ -1969,124 +1971,124 @@ $this->title = 'Торговый дом МАЗ';
 </section>
 <!-- new-products section end -->
 <!-- blog section start -->
-<section class="blog section-padding-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="section-title">
-                    <h3>Эт на случай создания каких то статей</h3>
-                    <div class="section-icon">
-                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div id="blog" class="owl-carousel product-slider owl-theme re-blog">
-                <div class="col-xs-12">
-                    <div class="blog-container-inner">
-                        <div class="post-thumb">
-                            <a href="#"><img class="attachment-blog-list wp-post-image" alt="blog-2" src="img/blog/111.jpg"></a>
-                        </div>
-                        <div class="visual-inner">
-                            <h2 class="blog-title">
-                                <a href="#"> 1</a>
-                            </h2>
-                            <div class="blog-meta">
-                                        <span class="post-category">
-                                            кат:
-                                            <a rel="category" href="#">техническая</a>
-                                        </span>
-                                <span class="published">
-                                            <i class="fa fa-clock-o"></i>
-                                            Jan 31, 2018
-                                        </span>
-                                <span class="published2">0 comment</span>
-                            </div>
-                            <div class="blog-content"> апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ... </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single blog item end -->
-                <div class="col-xs-12">
-                    <div class="blog-container-inner">
-                        <div class="post-thumb">
-                            <a href="#"><img class="attachment-blog-list wp-post-image" alt="blog-2" src="img/blog/222.jpg"></a>
-                        </div>
-                        <div class="visual-inner">
-                            <h2 class="blog-title">
-                                <a href="#"> 2</a>
-                            </h2>
-                            <div class="blog-meta">
-                                        <span class="post-category">
-                                            кат:
-                                            <a rel="category" href="#">так о чем то</a>
-                                        </span>
-                                <span class="published">
-                                            <i class="fa fa-clock-o"></i>
-                                            Jan 31, 2018
-                                        </span>
-                                <span class="published2">1 комментарий</span>
-                            </div>
-                            <div class="blog-content"> апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ... </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single blog item end -->
-                <div class="col-xs-12">
-                    <div class="blog-container-inner">
-                        <div class="post-thumb">
-                            <a href="#"><img class="attachment-blog-list wp-post-image" alt="blog-2" src="img/blog/333.jpg"></a>
-                        </div>
-                        <div class="visual-inner">
-                            <h2 class="blog-title">
-                                <a href="#"> 3</a>
-                            </h2>
-                            <div class="blog-meta">
-                                        <span class="post-category">
-                                            кат:
-                                            <a rel="category" href="#">так о чем то</a>
-                                        </span>
-                                <span class="published">
-                                            <i class="fa fa-clock-o"></i>
-                                            Jan 31, 2018
-                                        </span>
-                                <span class="published2">0 комментариев</span>
-                            </div>
-                            <div class="blog-content"> апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ... </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single blog item end -->
-                <div class="col-xs-12">
-                    <div class="blog-container-inner">
-                        <div class="post-thumb">
-                            <a href="#"><img class="attachment-blog-list wp-post-image" alt="blog-2" src="img/blog/111.jpg"></a>
-                        </div>
-                        <div class="visual-inner">
-                            <h2 class="blog-title">
-                                <a href="#"> 4</a>
-                            </h2>
-                            <div class="blog-meta">
-                                        <span class="post-category">
-                                            кат:
-                                            <a rel="category" href="#"> так о чем то</a>
-                                        </span>
-                                <span class="published">
-                                            <i class="fa fa-clock-o"></i>
-                                            Jan 31, 2018
-                                        </span>
-                                <span class="published2">0 комментариев</span>
-                            </div>
-                            <div class="blog-content"> апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ...</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single blog item end -->
-            </div>
-        </div>
-    </div>
-</section>
+<!--<section class="blog section-padding-top">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-xs-12">-->
+<!--                <div class="section-title">-->
+<!--                    <h3>Эт на случай создания каких то статей</h3>-->
+<!--                    <div class="section-icon">-->
+<!--                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div id="blog" class="owl-carousel product-slider owl-theme re-blog">-->
+<!--                <div class="col-xs-12">-->
+<!--                    <div class="blog-container-inner">-->
+<!--                        <div class="post-thumb">-->
+<!--                            <a href="#"><img class="attachment-blog-list wp-post-image" alt="blog-2" src="img/blog/111.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="visual-inner">-->
+<!--                            <h2 class="blog-title">-->
+<!--                                <a href="#"> 1</a>-->
+<!--                            </h2>-->
+<!--                            <div class="blog-meta">-->
+<!--                                        <span class="post-category">-->
+<!--                                            кат:-->
+<!--                                            <a rel="category" href="#">техническая</a>-->
+<!--                                        </span>-->
+<!--                                <span class="published">-->
+<!--                                            <i class="fa fa-clock-o"></i>-->
+<!--                                            Jan 31, 2018-->
+<!--                                        </span>-->
+<!--                                <span class="published2">0 comment</span>-->
+<!--                            </div>-->
+<!--                            <div class="blog-content"> апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ... </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <!-- single blog item end -->-->
+<!--                <div class="col-xs-12">-->
+<!--                    <div class="blog-container-inner">-->
+<!--                        <div class="post-thumb">-->
+<!--                            <a href="#"><img class="attachment-blog-list wp-post-image" alt="blog-2" src="img/blog/222.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="visual-inner">-->
+<!--                            <h2 class="blog-title">-->
+<!--                                <a href="#"> 2</a>-->
+<!--                            </h2>-->
+<!--                            <div class="blog-meta">-->
+<!--                                        <span class="post-category">-->
+<!--                                            кат:-->
+<!--                                            <a rel="category" href="#">так о чем то</a>-->
+<!--                                        </span>-->
+<!--                                <span class="published">-->
+<!--                                            <i class="fa fa-clock-o"></i>-->
+<!--                                            Jan 31, 2018-->
+<!--                                        </span>-->
+<!--                                <span class="published2">1 комментарий</span>-->
+<!--                            </div>-->
+<!--                            <div class="blog-content"> апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ... </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <!-- single blog item end -->-->
+<!--                <div class="col-xs-12">-->
+<!--                    <div class="blog-container-inner">-->
+<!--                        <div class="post-thumb">-->
+<!--                            <a href="#"><img class="attachment-blog-list wp-post-image" alt="blog-2" src="img/blog/333.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="visual-inner">-->
+<!--                            <h2 class="blog-title">-->
+<!--                                <a href="#"> 3</a>-->
+<!--                            </h2>-->
+<!--                            <div class="blog-meta">-->
+<!--                                        <span class="post-category">-->
+<!--                                            кат:-->
+<!--                                            <a rel="category" href="#">так о чем то</a>-->
+<!--                                        </span>-->
+<!--                                <span class="published">-->
+<!--                                            <i class="fa fa-clock-o"></i>-->
+<!--                                            Jan 31, 2018-->
+<!--                                        </span>-->
+<!--                                <span class="published2">0 комментариев</span>-->
+<!--                            </div>-->
+<!--                            <div class="blog-content"> апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ... </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <!-- single blog item end -->-->
+<!--                <div class="col-xs-12">-->
+<!--                    <div class="blog-container-inner">-->
+<!--                        <div class="post-thumb">-->
+<!--                            <a href="#"><img class="attachment-blog-list wp-post-image" alt="blog-2" src="img/blog/111.jpg"></a>-->
+<!--                        </div>-->
+<!--                        <div class="visual-inner">-->
+<!--                            <h2 class="blog-title">-->
+<!--                                <a href="#"> 4</a>-->
+<!--                            </h2>-->
+<!--                            <div class="blog-meta">-->
+<!--                                        <span class="post-category">-->
+<!--                                            кат:-->
+<!--                                            <a rel="category" href="#"> так о чем то</a>-->
+<!--                                        </span>-->
+<!--                                <span class="published">-->
+<!--                                            <i class="fa fa-clock-o"></i>-->
+<!--                                            Jan 31, 2018-->
+<!--                                        </span>-->
+<!--                                <span class="published2">0 комментариев</span>-->
+<!--                            </div>-->
+<!--                            <div class="blog-content"> апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ...</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <!-- single blog item end -->-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 <!-- blog section end -->
 <!-- quick view start -->
 <div class="quick-view modal fade in" id="quick-view">
@@ -2342,59 +2344,4 @@ $this->title = 'Торговый дом МАЗ';
     </div>
 </div>
 <!-- quick view end -->
-<!-- brand section start -->
-<section class="section-padding-top">
-    <div class="brand-logo">
-        <div class="barnd-bg">
-            <div class="container">
-                <div class="row text-center">
-                    <div id="brand-logo" class="re-owl-carousel21 owl-carousel product-slider owl-theme">
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/1.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/2.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/3.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/4.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/5.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/6.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/1.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/3.png" alt="" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- brand section end -->
-
 <!--</div>-->

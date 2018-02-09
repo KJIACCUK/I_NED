@@ -38,26 +38,26 @@ $this->params['breadcrumbs'][] = $this->title;
                                 Компания
                                 <em>*</em>
                             </label>
-                            <input type="text">
+                            <input type="text" placeholder="Введите название компании">
                         </p>
                         <p class="checkout-coupon top log a-an">
                             <label class="l-contact">
                                 ФИО
                                 <em>*</em>
                             </label>
-                            <input type="text">
+                            <input type="text" placeholder="Введите ФИО">
                         </p>
                         <p class="checkout-coupon top log a-an">
                             <label class="l-contact">
                                 Номер диллерского сертификата
                             </label>
-                            <input type="text">
+                            <input type="text" placeholder="Введите номер диллерского сертификата">
                         </p>
                         <p class="checkout-coupon top log a-an">
                             <label class="l-contact">
                                 Телефон
                             </label>
-                            <input type="text">
+                            <input type="text" placeholder="Введите номер телефона">
                         </p>
 
                     </form>
@@ -76,28 +76,28 @@ $this->params['breadcrumbs'][] = $this->title;
                                 Логин
                                 <em>*</em>
                             </label>
-                            <input type="email">
+                            <input type="text" placeholder="Введите логин">
                         </p>
                         <p class="checkout-coupon top log a-an">
                             <label class="l-contact">
                                 Email
                                 <em>*</em>
                             </label>
-                            <input type="email">
+                            <input type="email" placeholder="Введите адрес эл. почты">
                         </p>
                         <p class="checkout-coupon top-down log a-an">
                             <label class="l-contact">
                                 Пароль
                                 <em>*</em>
                             </label>
-                            <input type="password">
+                            <input type="password" placeholder="Введите пароль">
                         </p>
                         <p class="checkout-coupon top-down log a-an">
                             <label class="l-contact">
                                 Подтверждение пароля
                                 <em>*</em>
                             </label>
-                            <input type="password">
+                            <input type="password" placeholder="Введите повторно пароль">
                         </p>
 <!--                        <div class="forgot-password1">-->
 <!--                            <label class="inline2">-->
@@ -130,57 +130,3 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
 </div>
 <!-- login  content section end -->
-
-<section class="section-padding-top">
-    <div class="brand-logo">
-        <div class="barnd-bg">
-            <div class="container">
-                <div class="row text-center">
-                    <div id="brand-logo" class="re-owl-carousel21 owl-carousel product-slider owl-theme">
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/1.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/2.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/3.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/4.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/5.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/6.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/1.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="single-brand">
-                                <a href="#"><img src="img/brand/3.png" alt="" /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- brand section end -->

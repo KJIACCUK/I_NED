@@ -2,169 +2,303 @@
 /**
  * Created by PhpStorm.
  * User: uit06
- * Date: 02.02.2018
- * Time: 8:38
+ * Date: 09.02.2018
+ * Time: 13:56
  */
-
 use yii\helpers\Url;
 ?>
+
+<!-- pages-title-start -->
 <section class="contact-img-area">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="con-text">
-                    <h2 class="page-title">Каталог</h2>
-                    <p><a href="<?=Url::home()?>">Главная</a> | Каталог</p>
+                    <h2 class="page-title">Подробнее</h2>
+                    <p><a href="<?=Url::home()?>">Главная</a> | Продукт</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- pages-title-end -->
-<!-- shop-style content section start -->
-<section class="pages products-page section-padding-top">
+<!-- single peoduct content section start -->
+<section class="single-product-area sit">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-lg-3 col-sm-12">
-                <div class="all-shop-sidebar">
-                    <div class="top-shop-sidebar">
-                        <h3 class="wg-title">ОАО "МАЗ"</h3>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 none-si-pro">
+                        <div class="pro-img-tab-content tab-content">
+                            <div class="tab-pane active" id="image-1">
+                                <div class="simpleLens-big-image-container">
+                                    <a class="simpleLens-lens-image" data-lightbox="roadtrip" data-lens-image="<?=Yii::getAlias('@web/img/products/12.jpg')?>" href="<?=Yii::getAlias('@web/img/products/12.jpg')?>">
+                                        <img src="<?=Yii::getAlias('@web/img/products/12.jpg')?>" alt="" class="simpleLens-big-image">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="image-2">
+                                <div class="simpleLens-big-image-container">
+                                    <a class="simpleLens-lens-image" data-lightbox="roadtrip" data-lens-image="<?=Yii::getAlias('@web/img/products/13.jpg')?>" href="<?=Yii::getAlias('@web/img/products/13.jpg')?>">
+                                        <img src="<?=Yii::getAlias('@web/img/products/13.jpg')?>" alt="" class="simpleLens-big-image">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="image-3">
+                                <div class="simpleLens-big-image-container">
+                                    <a class="simpleLens-lens-image" data-lightbox="roadtrip" data-lens-image="<?=Yii::getAlias('@web/img/products/14.jpg')?>" href="<?=Yii::getAlias('@web/img/products/14.jpg')?>">
+                                        <img src="<?=Yii::getAlias('@web/img/products/14.jpg')?>" alt="" class="simpleLens-big-image">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="image-4">
+                                <div class="simpleLens-big-image-container">
+                                    <a class="simpleLens-lens-image" data-lightbox="roadtrip" data-lens-image="<?=Yii::getAlias('@web/img/products/15.jpg')?>" href="<?=Yii::getAlias('@web/img/products/15.jpg')?>">
+                                        <img src="<?=Yii::getAlias('@web/img/products/15.jpg')?>" alt="" class="simpleLens-big-image">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="image-5">
+                                <div class="simpleLens-big-image-container">
+                                    <a class="simpleLens-lens-image" data-lightbox="roadtrip" data-lens-image="<?=Yii::getAlias('@web/img/products/11.jpg')?>" href="<?=Yii::getAlias('@web/img/products/11.jpg')?>">
+                                        <img src="<?=Yii::getAlias('@web/img/products/11.jpg')?>" alt="" class="simpleLens-big-image">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="image-6">
+                                <div class="simpleLens-big-image-container">
+                                    <a class="simpleLens-lens-image" data-lightbox="roadtrip" data-lens-image="<?=Yii::getAlias('@web/img/products/10.jpg')?>" href="<?=Yii::getAlias('@web/img/products/10.jpg')?>">
+                                        <img src="<?=Yii::getAlias('@web/img/products/10.jpg')?>" alt="" class="simpleLens-big-image">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pro-img-tab-slider indicator-style2">
+                            <div class="item"><a href="#image-1" data-toggle="tab"><img src="<?=Yii::getAlias('@web/img/products/12.jpg')?>" alt="" /></a></div>
+                            <div class="item"><a href="#image-2" data-toggle="tab"><img src="<?=Yii::getAlias('@web/img/products/13.jpg')?>" alt="" /></a></div>
+                            <div class="item"><a href="#image-3" data-toggle="tab"><img src="<?=Yii::getAlias('@web/img/products/14.jpg')?>" alt="" /></a></div>
+                            <div class="item"><a href="#image-4" data-toggle="tab"><img src="<?=Yii::getAlias('@web/img/products/15.jpg')?>" alt="" /></a></div>
+                            <div class="item"><a href="#image-5" data-toggle="tab"><img src="<?=Yii::getAlias('@web/img/products/11.jpg')?>" alt="" /></a></div>
+                            <div class="item"><a href="#image-6" data-toggle="tab"><img src="<?=Yii::getAlias('@web/img/products/10.jpg')?>" alt="" /></a></div>
+                        </div>
                     </div>
-                    <div class="shop-one">
-                        <h3 class="wg-title2">Категории</h3>
-                        <ul class="product-categories">
-<!--                            --><?php //foreach ($categories as $category):?>
-<!--                                <li class="cat-item">-->
-<!--                                    <a href="#">--><?//= $category['name']?><!--</a>-->
-<!--                                    <span class="count">(10)</span>-->
-<!--                                </li>-->
-<!--                            --><?php //endforeach;?>
-
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="shop-one">
-                        <h3 class="wg-title2">-------------</h3>
-                        <ul class="product-categories">
-                            <li class="cat-item">
-                                <a href="#">-----</a>
-                                <span class="count">(1)</span>
-                            </li>
-                            <li class="cat-item">
-                                <a href="#">----</a>
-                                <span class="count">(1)</span>
-                            </li>
-                            <li class="cat-item-10">
-                                <a href="#">-----</a>
-                                <span class="count">(1)</span>
-                            </li>
-                            <li class="cat-item">
-                                <a href="#">---</a>
-                                <span class="count">(1)</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="shop-one re-shop-one">
-                        <h3 class="wg-title2">ценовой диапазон</h3>
-                        <div class="widget shop-filter">
-                            <div class="info_widget">
-                                <div class="price_filter">
-                                    <div id="slider-range"></div>
-                                    <div id="amount">
-                                        <input type="text" name="first_price" class="first_price" />
-                                        <input type="text" name="last_price" class="last_price"/>
-                                        <button class="button-shop" type="submit"><i class="fa fa-search search-icon"></i></button>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="cras">
+                            <div class="product-name">
+                                <h2>Ut wisi enim</h2>
+                            </div>
+                            <div class="pro-rating cendo-pro">
+                                <div class="pro_one">
+                                    <img src="<?=Yii::getAlias('@web/img/icon-img/stars-1.png')?>" alt="">
+                                </div>
+                                <p class="rating-links">
+                                    <a href="#">1 Reviews</a>
+                                </p>
+                            </div>
+                            <p class="availability in-stock">
+                                Product Code: Product 3
+                            </p>
+                            <p class="availability in-stock2">
+                                Availability:In stock
+                            </p>
+                            <div class="short-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla. Donec a neque libero. Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio...</p>
+                            </div>
+                            <div class="pre-box">
+                                <span class="special-price">$155.00</span>
+                            </div>
+                            <div class="add-to-box1">
+                                <div class="add-to-box add-to-box2">
+                                    <div class="add-to-cart">
+                                        <div class="input-content">
+                                            <label>Quantity:</label>
+                                            <div class="quantity">
+                                                <div class="cart-plus-minus">
+                                                    <input type="text" value="0" name="qtybutton" class="cart-plus-minus-box">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-icon">
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </div>
                                     </div>
-
+                                </div>
+                            </div>
+                            <div class="s-cart-img">
+                                <a href="#">
+                                    <img alt="" src="<?=Yii::getAlias('@web/img/icon-img/screenshot_2.png')?>">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="text">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Product Description</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Reviews (1)</a>
+                                </li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content tab-con2">
+                                <div role="tabpanel" class="tab-pane active" id="home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla. Donec a neque libero. Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi. Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam erat mi, rutrum at sollicitudin rhoncus, ultricies posuere erat. Duis convallis, arcu nec aliquam consequat, purus felis vehicula felis, a dapibus enim lorem nec augue. Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <form class="form-horizontal">
+                                        <div id="review">
+                                            <table class="table table-striped table-bordered">
+                                                <tr>
+                                                    <td style="width: 50%;">
+                                                        <strong>demo</strong>
+                                                    </td>
+                                                    <td class="text-right">25/02/2018</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p class="text an-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet sem varius, fringilla erat a, blandit arcu. Cras sit amet justo eu erat imperdiet dictum ac eget nulla. Aliquam erat volutpat.</p>
+                                                        <span class="fa fa-stack">
+                                                                    <i class="fa fa-star fa-stack-2x"></i>
+                                                                    <i class="fa fa-star-o fa-stack-2x"></i>
+                                                                </span>
+                                                        <span class="fa fa-stack">
+                                                                    <i class="fa fa-star fa-stack-2x"></i>
+                                                                    <i class="fa fa-star-o fa-stack-2x"></i>
+                                                                </span>
+                                                        <span class="fa fa-stack">
+                                                                    <i class="fa fa-star-o fa-stack-2x"></i>
+                                                                </span>
+                                                        <span class="fa fa-stack">
+                                                                    <i class="fa fa-star-o fa-stack-2x"></i>
+                                                                </span>
+                                                        <span class="fa fa-stack">
+                                                                    <i class="fa fa-star-o fa-stack-2x"></i>
+                                                                </span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <div class="text-right"></div>
+                                        </div>
+                                        <h2 class="write">Write a review</h2>
+                                        <div class="form-group required">
+                                            <div class="col-sm-12">
+                                                <label class="control-label" for="input-name">Your Name</label>
+                                                <input id="input-name" class="form-control" type="text" value="" name="name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group required">
+                                            <div class="col-sm-12">
+                                                <label class="control-label" for="input-review">Your Review</label>
+                                                <textarea id="input-review" class="form-control" rows="5" name="text"></textarea>
+                                                <div class="help-block">
+                                                    <span class="text-danger">Note:</span>
+                                                    HTML is not translated!
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group required">
+                                            <div class="col-sm-12">
+                                                <label class="control-label">Rating</label>
+                                                Bad
+                                                <input type="radio" value="1" name="rating">
+                                                <input type="radio" value="2" name="rating">
+                                                <input type="radio" value="3" name="rating">
+                                                <input type="radio" value="4" name="rating">
+                                                <input type="radio" value="5" name="rating">
+                                                Good
+                                            </div>
+                                        </div>
+                                        <div class="form-group required">
+                                            <div class="col-sm-12">
+                                                <label class="control-label" for="input-captcha">Enter the code in the box below</label>
+                                                <input id="input-captcha" class="form-control" type="text" value="" name="captcha">
+                                            </div>
+                                        </div>
+                                        <div class="buttons si-button">
+                                            <div class="pull-right">
+                                                <button id="button-review" class="btn btn-primary" data-loading-text="Loading..." type="button">Continue</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-<!--                    <div class="shop-one re-shop-one">-->
-<!--                        <h3 class="wg-title2">Choose Color</h3>-->
-<!--                        <ul class="product-categories">-->
-<!--                            <li class="cat-item cat-item-11">-->
-<!--                                <a href="#">Black</a>-->
-<!--                                <span class="count">(1)</span>-->
-<!--                            </li>-->
-<!--                            <li class="cat-item cat-item-8">-->
-<!--                                <a href="#">Orange</a>-->
-<!--                                <span class="count">(1)</span>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                    <div class="top-shop-sidebar sim">-->
-<!--                        <h3 class="wg-title">Compare Products</h3>-->
-<!--                        <ul class="products-list">-->
-<!--                            <li class="cat-item cat-item-11">No products to compare</li>-->
-<!--                        </ul>-->
-<!--                        <a class="clear-all" href="#">Clear all</a>-->
-<!--                        <a class="blog8" href="#">Compare</a>-->
-<!--                    </div>-->
-<!--                    <div class="top-shop-sidebar sim2">-->
-<!--                        <h3 class="wg-title">Community Pool</h3>-->
-<!--                    </div>-->
-<!--                    <div class="shop-one">-->
-<!--                        <ul class="product-categories">-->
-<!--                            <li class="cat-item cat-item-11">-->
-<!--                                <a href="#">Black</a>-->
-<!--                                <span class="count">(1)</span>-->
-<!--                            </li>-->
-<!--                            <li class="cat-item cat-item-8">-->
-<!--                                <a href="#">Orange</a>-->
-<!--                                <span class="count">(1)</span>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-                    <div class="top-shop-sidebar an-shop">
-                        <h3 class="wg-title">Последние</h3>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="single-sidebar">
+                    <div class="single-sidebar an-shop">
+                        <h3 class="wg-title">BEST SELLER</h3>
                         <ul>
-                            <li class="b-none">
+                            <li class="b-none7">
                                 <div class="tb-recent-thumbb">
                                     <a href="">
-                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/p1.jpg')?>" alt="">
+                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/6.jpg')?>" alt="">
                                     </a>
                                 </div>
-                                <div class="tb-recentb">
-
+                                <div class="tb-recentb7">
                                     <div class="tb-beg">
-                                        <a href="#">----</a>
+                                        <a href="#">Lambskin Shoe</a>
                                     </div>
-
                                     <div class="tb-product-price font-noraure-3">
                                         <span class="amount">$180.00</span>
-                                        <span class="amount2 ana">$170.00</span>
                                     </div>
                                 </div>
                             </li>
-                            <li class="b-none">
+                            <li class="b-none7">
                                 <div class="tb-recent-thumbb">
                                     <a href="">
-                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/p1.jpg')?>" alt="">
+                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/10.jpg')?>" alt="">
                                     </a>
                                 </div>
-                                <div class="tb-recentb">
+                                <div class="tb-recentb7">
                                     <div class="tb-beg">
-                                        <a href="#">------</a>
+                                        <a href="#">Lambskin Shoe</a>
                                     </div>
                                     <div class="tb-product-price font-noraure-3">
-                                        <span class="amount2 ana">$170.00</span>
+                                        <span class="amount">$180.00</span>
                                     </div>
                                 </div>
                             </li>
-                            <li class="b-none agn">
+                            <li class="b-none7">
                                 <div class="tb-recent-thumbb">
                                     <a href="">
-                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/p1.jpg')?>" alt="">
+                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/8.jpg')?>" alt="">
                                     </a>
                                 </div>
-                                <div class="tb-recentb">
+                                <div class="tb-recentb7">
                                     <div class="tb-beg">
-                                        <a href="#">------</a>
+                                        <a href="#">Lambskin Shoe</a>
                                     </div>
                                     <div class="tb-product-price font-noraure-3">
-                                        <span class="amount2 ana">$170.00</span>
+                                        <span class="amount">$180.00</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="b-none7">
+                                <div class="tb-recent-thumbb">
+                                    <a href="">
+                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/9.jpg')?>" alt="">
+                                    </a>
+                                </div>
+                                <div class="tb-recentb7">
+                                    <div class="tb-beg">
+                                        <a href="#">Lambskin Shoe</a>
+                                    </div>
+                                    <div class="tb-product-price font-noraure-3">
+                                        <span class="amount">$180.00</span>
                                     </div>
                                 </div>
                             </li>
@@ -176,150 +310,11 @@ use yii\helpers\Url;
                         </div>
                         <div class="tb-content">
                             <div class="tb-content-inner an-inner">
-                                <h5>МАЗ</h5>
-                                <h3>ывывывыв</h3>
+                                <h5>WOMEN'S FASHION</h5>
+                                <h3>MID SEASON SALE</h3>
                                 <h6>
-                                    <a href="#">Заказать сейчас</a>
+                                    <a href="#">SHOP NOW</a>
                                 </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 col-lg-9 col-sm-12">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="features-tab">
-                            <!-- Nav tabs -->
-                            <div class="shop-all-tab">
-                                <div class="two-part">
-                                    <ul class="nav tabs" role="tablist">
-                                        <li class="vali">Вид :</li>
-                                        <li role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-th-large"></i></a></li>
-                                        <li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-align-justify"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="re-shop">
-                                    <div class="sort-by">
-                                        <div class="shop6">
-                                            <label>Сортировать по :</label>
-                                            <select>
-                                                <option value="">Default sorting</option>
-                                                <option value="">Sort by popularity</option>
-                                                <option value="">Sort by average rating</option>
-                                                <option value="">Sort by newness</option>
-                                                <option value="">Sort by price: low to high</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="shop5">
-                                        <label>Показать :</label>
-                                        <select>
-                                            <option value="">12</option>
-                                            <option value="">24</option>
-                                            <option value="">36</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane" id="home">
-                                    <div class="row">
-                                        <div class="shop-tab">
-                                            <!-- single-product start -->
-                                            <?php foreach ($products as $product):?>
-                                            <div class="col-md-4 col-lg-4 col-sm-6">
-                                                <div class="single-product">
-                                                    <div class="product-img">
-<!--                                                        <div class="pro-type">-->
-<!--                                                            <span>new</span>-->
-<!--                                                        </div>-->
-                                                        <a href="#">
-                                                            <img src="<?=Yii::getAlias('@web')?>/img/products/<?=$product['img'];?>" alt="Product Title" />
-                                                            <img class="secondary-image" alt="Product Title" src="<?=Yii::getAlias('@web/img/products/2.jpg')?>">
-                                                        </a>
-                                                    </div>
-                                                    <div class="product-dsc">
-                                                        <h3><a href="<?=Url::toRoute(['site/singleproduct', 'id'=>$product['id']])?>"><?=$product['name'];?></a></h3>
-                                                        <div class="star-price">
-                                                            <span class="price-left"><?=$product['price']?></span>
-<!--                                                            <span class="star-right">-->
-<!--                                                                        <i class="fa fa-star"></i>-->
-<!--                                                                        <i class="fa fa-star"></i>-->
-<!--                                                                        <i class="fa fa-star"></i>-->
-<!--                                                                        <i class="fa fa-star"></i>-->
-<!--                                                                        <i class="fa fa-star-half-o"></i>-->
-<!--                                                                    </span>-->
-                                                        </div>
-                                                    </div>
-                                                    <div class="actions-btn">
-                                                        <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Подробнее"><i class="fa fa-eye"></i></a>
-<!--                                                        <a data-placement="top" data-toggle="tooltip" href="#" data-original-title="Add To Wishlist"><i class="fa fa-heart"></i></a>-->
-<!--                                                        <a title="#" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Compare"><i class="fa fa-retweet"></i></a>-->
-                                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Добавить в корзину"><i class="fa fa-shopping-cart"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <?php endforeach;?>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane active" id="profile">
-                                    <div class="row">
-                                        <?php foreach ($products as $product): ?>
-                                        <div class="li-item">
-                                            <div class="col-md-4 col-sm-4">
-                                                <div class="tb-product-item-inner tb2 pct-last">
-                                                    <div class="re-img">
-                                                        <a href="#"><img alt="" src="<?=Yii::getAlias('@web/')?>img/products/<?=$product['img']?>"></a>
-                                                    </div>
-                                                    <div class="actions-btn">
-                                                        <a data-original-title="Подробнее" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="#">
-                                                            <i class="fa fa-eye"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8 col-sm-8">
-                                                <div class="f-fix">
-                                                    <div class="tb-beg">
-                                                        <a href="<?=Url::toRoute(['site/singleproduct', 'id'=>$product['id']])?>"><?=$product['name']?></a>
-                                                    </div>
-                                                    <div class="tb-product-wrap-price-rating">
-                                                        <div class="tb-product-price font-noraure-3">
-                                                            <span class="amount2 ana"><?=$product['price']?></span>
-                                                        </div>
-                                                    </div>
-                                                    <p class="desc"><?=$product['description']?></p>
-                                                    <div class="last-cart l-mrgn ns">
-                                                        <a class="las4" href="#">Добавить в корзину</a>
-                                                    </div>
-<!--                                                    <div class="tb-product-btn">-->
-<!--                                                        <a href="#">-->
-<!--                                                            <i class="fa fa-eye"></i>-->
-<!--                                                        </a>-->
-<!--                                                        <a href="#">-->
-<!--                                                            <i class="fa fa-heart"></i>-->
-<!--                                                        </a>-->
-<!--                                                        <a href="#">-->
-<!--                                                            <i class="fa fa-retweet"></i>-->
-<!--                                                        </a>-->
-<!--                                                    </div>-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                      <?php endforeach;?>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop-all-tab-nor">
-                                <div class="two-part">
-                                    <ul class="nav tabs" role="tablist">
-                                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-th-large"></i></a></li>
-                                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-align-justify"></i></a></li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -328,7 +323,6 @@ use yii\helpers\Url;
         </div>
     </div>
 </section>
-<!-- shop-style  content section end -->
 <!-- quick view start -->
 <div class="quick-view modal fade in" id="quick-view">
     <div class="container">
@@ -364,7 +358,7 @@ use yii\helpers\Url;
                                                         <ul>
                                                             <li><a data-toggle="tab" href="#sin-pro-1"> <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
                                                             <li><a data-toggle="tab" href="#sin-pro-2"> <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
-                                                            <li><a data-toggle="tab" href="#sin-pro-3"> <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
+                                                            <li><a data-toggle="tab" href="#sin-pro-3"> <img src="<?=Yii::getAlias('@web/mg/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
                                                             <li><a data-toggle="tab" href="#sin-pro-4"> <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
                                                         </ul>
                                                     </div>
@@ -374,7 +368,7 @@ use yii\helpers\Url;
                                         <div class="col-xs-12 col-sm-7">
                                             <div class="quick-right">
                                                 <div class="quick-right-text">
-                                                    <h3><strong>---------------------</strong></h3>
+                                                    <h3><strong>product name title</strong></h3>
                                                     <div class="rating">
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
@@ -417,7 +411,7 @@ use yii\helpers\Url;
                                                                             <form action="#" method="POST">
                                                                                 <div class="plus-minus">
                                                                                     <a class="dec qtybutton">-</a>
-                                                                                    <input type="text" value="1" name="qtybutton" class="plus-minus-box">
+                                                                                    <input type="text" value="02" name="qtybutton" class="plus-minus-box">
                                                                                     <a class="inc qtybutton">+</a>
                                                                                 </div>
                                                                             </form>
@@ -441,7 +435,7 @@ use yii\helpers\Url;
                                                                     </ul>
                                                                 </div>
                                                                 <div class="por-dse add-to">
-                                                                    <a href="#">Добавить в корзину</a>
+                                                                    <a href="#">add to cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -469,25 +463,25 @@ use yii\helpers\Url;
                                             <div class="quick-image">
                                                 <div class="single-quick-image tab-content text-center">
                                                     <div class="tab-pane  fade in active" id="sin-pro-5">
-                                                        <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="" />
+                                                        <img src="<?=Url::toRoute('@web/img/quick-view/10.jpg')?>" alt="" />
                                                     </div>
                                                     <div class="tab-pane fade in" id="sin-pro-6">
-                                                        <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="" />
+                                                        <img src="<?=Url::toRoute('@web/img/quick-view/10.jpg')?>" alt="" />
                                                     </div>
                                                     <div class="tab-pane fade in" id="sin-pro-7">
-                                                        <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="" />
+                                                        <img src="<?=Url::toRoute('@web/img/quick-view/10.jpg')?>" alt="" />
                                                     </div>
                                                     <div class="tab-pane fade in" id="sin-pro-8">
-                                                        <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="" />
+                                                        <img src="<?=Url::toRoute('@web/img/quick-view/10.jpg')?>" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="quick-thumb">
                                                     <div class="nav nav-tabs">
                                                         <ul>
-                                                            <li><a data-toggle="tab" href="#sin-pro-5"> <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
-                                                            <li><a data-toggle="tab" href="#sin-pro-6"> <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
-                                                            <li><a data-toggle="tab" href="#sin-pro-7"> <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
-                                                            <li><a data-toggle="tab" href="#sin-pro-8"> <img src="<?=Yii::getAlias('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
+                                                            <li><a data-toggle="tab" href="#sin-pro-5"> <img src="<?=Url::toRoute('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
+                                                            <li><a data-toggle="tab" href="#sin-pro-6"> <img src="<?=Url::toRoute('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
+                                                            <li><a data-toggle="tab" href="#sin-pro-7"> <img src="<?=Url::toRoute('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
+                                                            <li><a data-toggle="tab" href="#sin-pro-8"> <img src="<?=Url::toRoute('@web/img/quick-view/10.jpg')?>" alt="quick view" /> </a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -496,7 +490,7 @@ use yii\helpers\Url;
                                         <div class="col-xs-12 col-sm-7">
                                             <div class="quick-right">
                                                 <div class="quick-right-text">
-                                                    <h3><strong>------------------</strong></h3>
+                                                    <h3><strong>product name title</strong></h3>
                                                     <div class="rating">
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
@@ -539,7 +533,7 @@ use yii\helpers\Url;
                                                                             <form action="#" method="POST">
                                                                                 <div class="plus-minus">
                                                                                     <a class="dec qtybutton">-</a>
-                                                                                    <input type="text" value="1" name="qtybutton" class="plus-minus-box">
+                                                                                    <input type="text" value="02" name="qtybutton" class="plus-minus-box">
                                                                                     <a class="inc qtybutton">+</a>
                                                                                 </div>
                                                                             </form>
@@ -563,7 +557,7 @@ use yii\helpers\Url;
                                                                     </ul>
                                                                 </div>
                                                                 <div class="por-dse add-to">
-                                                                    <a href="#">Добавить в корзину</a>
+                                                                    <a href="#">add to cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>

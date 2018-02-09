@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="about-us-all">
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <div class="about-optima-img">
-                                <img class="primary-image" src="img/about/team30.jpg" alt="">
+                                <img class="primary-image" src="<?=Yii::getAlias('@web/img/about/samsport.jpg')?>" alt="">
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
@@ -54,15 +54,15 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="col-md-12 client-say">
                         <div class="about-sec-head">
                             <h2>
-                                Что наши клиенты
-                                <strong>говорят</strong>
+                                Что говорят наши
+                                <strong>клиенты</strong>
                             </h2>
                             <p>Lorem ipsum scelerisque molestie id molestie magna ante etiam</p>
                         </div>
                         <div class="what-client-say">
                             <div class="single-item-testi">
                                 <div class="client-image">
-                                    <img alt="" src="img/about/testi1.jpg">
+                                    <img alt="" src="<?=Yii::getAlias('@web/img/about/testi1.jpg')?>">
                                 </div>
                                 <div class="client-text">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,…</p>
@@ -72,7 +72,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             </div>
                             <div class="single-item-testi">
                                 <div class="client-image">
-                                    <img alt="" src="img/about/testi2.jpg">
+                                    <img alt="" src="<?=Yii::getAlias('@web/img/about/testi2.jpg')?>">
                                 </div>
                                 <div class="client-text">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,…</p>
@@ -82,7 +82,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             </div>
                             <div class="single-item-testi">
                                 <div class="client-image">
-                                    <img alt="" src="img/about/testi3.jpg">
+                                    <img alt="" src="<?=Yii::getAlias('@web/img/about/testi3.jpg')?>">
                                 </div>
                                 <div class="client-text">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,…</p>
@@ -92,7 +92,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             </div>
                             <div class="single-item-testi">
                                 <div class="client-image">
-                                    <img alt="" src="img/about/testi4.jpg">
+                                    <img alt="" src="<?=Yii::getAlias('@web/img/about/testi4.jpg')?>">
                                 </div>
                                 <div class="client-text">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,…</p>
@@ -114,7 +114,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="col-md-3 col-sm-6">
                         <div class="single-creative-member res2">
                             <div class="member-image">
-                                <img alt="" src="img/about/member1.jpg">
+                                <img alt="" src="<?=Yii::getAlias('@web/img/about/member1.jpg')?>">
                                 <div class="member-title">
                                     <h2>Jennifear lawrence</h2>
                                     <h3>Ceo Founder</h3>
@@ -142,7 +142,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="col-md-3 col-sm-6">
                         <div class="single-creative-member res2 res-mem">
                             <div class="member-image">
-                                <img alt="" src="img/about/member2.jpg">
+                                <img alt="" src="<?=Yii::getAlias('@web/img/about/member2.jpg')?>">
                                 <div class="member-title">
                                     <h2>Martin Jerry</h2>
                                     <h3>Ceo Founder</h3>
@@ -170,7 +170,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="col-md-3 col-sm-6">
                         <div class="single-creative-member res-mem2">
                             <div class="member-image">
-                                <img alt="" src="img/about/member3.jpg">
+                                <img alt="" src="<?=Yii::getAlias('@web/img/about/member3.jpg')?>">
                                 <div class="member-title">
                                     <h2>Danny Louis</h2>
                                     <h3>Ceo Founder</h3>
@@ -198,7 +198,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="col-md-3 col-sm-6">
                         <div class="single-creative-member">
                             <div class="member-image">
-                                <img alt="" src="img/about/member4.jpg">
+                                <img alt="" src="<?=Yii::getAlias('@web/img/about/member4.jpg')?>">
                                 <div class="member-title">
                                     <h2>Michael Johnson</h2>
                                     <h3>Ceo Founder</h3>

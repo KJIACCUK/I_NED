@@ -74,26 +74,26 @@ AppAsset::register($this);
                                         <div class="magamenu ">
                                             <ul class="again">
                                                 <li class="single-menu colmd4">
-                                                    <span>Комплектующие 1</span>
+                                                    <span>Категория 1</span>
                                                     <a href="#">1</a>
                                                     <a href="#">2</a>
                                                     <a href="#">3</a>
                                                 </li>
                                                 <li class="single-menu colmd4">
-                                                    <span>Комплектующие 2</span>
+                                                    <span>Категория 2</span>
                                                     <a href="#">1</a>
                                                     <a href="#">2</a>
                                                     <a href="#">3</a>
                                                 </li>
                                                 <li class="single-menu colmd4">
-                                                    <span>Комплектующие 3</span>
+                                                    <span>Категория 3</span>
                                                     <a href="#">1</a>
                                                     <a href="#">2</a>
                                                     <a href="#">3</a>
                                                 </li>
                                                 <li class="single-menu colmd4 colmd5">
                                                     <a href="#">
-                                                        <img alt="" src="img/maga-banner.png">
+                                                        <img alt="" src="<?=Yii::getAlias('@web/img/maga-banner.png')?>">
                                                     </a>
                                                 </li>
                                             </ul>
@@ -128,7 +128,7 @@ AppAsset::register($this);
                             <div class="mobile-menu">
                                 <nav id="dropdown">
                                     <ul>
-                                        <li><a href="<?=Url::toRoute('site/index')?>">Главная</a></li>
+                                        <li><a href="<?=Url::home()?>">Главная</a></li>
                                         <li><a href="<?=Url::toRoute('site/shoplist')?>">Каталог</a>
                                             <ul>
                                                 <li><a href="#">Комплектующие 1</a>
@@ -231,7 +231,7 @@ AppAsset::register($this);
                                         <button type="submit"><i class="pe-7s-search"></i></button>
                                     </form>
                                 </li>
-                                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i><span class="color1">*</span></a>
+                                <li><a href="<?=Url::toRoute('site/shoppingcart')?>"><i class="fa fa-shopping-cart"></i><span class="color1">*</span></a>
                                     <ul class="drop-cart">
                                        <!-- <li>
                                             <a href="cart.html"><img src="img/cart/1.png" alt="" /></a>
@@ -284,6 +284,61 @@ AppAsset::register($this);
 
     <?= $content ?>
 
+<!-- brand section start -->
+<section class="section-padding-top">
+    <div class="brand-logo">
+        <div class="barnd-bg">
+            <div class="container">
+                <div class="row text-center">
+                    <div id="brand-logo" class="re-owl-carousel21 owl-carousel product-slider owl-theme">
+                        <div class="col-xs-12">
+                            <div class="single-brand">
+                                <a href="#"><img src="<?=Yii::getAlias('@web/img/brand/1.png')?>" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="single-brand">
+                                <a href="#"><img src="<?=Yii::getAlias('@web/img/brand/2.png')?>" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="single-brand">
+                                <a href="#"><img src="<?=Yii::getAlias('@web/img/brand/3.png')?>" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="single-brand">
+                                <a href="#"><img src="<?=Yii::getAlias('@web/img/brand/4.png')?>" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="single-brand">
+                                <a href="#"><img src="<?=Yii::getAlias('@web/img/brand/5.png')?>" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="single-brand">
+                                <a href="#"><img src="<?=Yii::getAlias('@web/img/brand/6.png')?>" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="single-brand">
+                                <a href="#"><img src="<?=Yii::getAlias('@web/img/brand/1.png')?>" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="single-brand">
+                                <a href="#"><img src="<?=Yii::getAlias('@web/img/brand/3.png')?>" alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- brand section end -->
+
 <!-- service section start -->
 <section class="re-section-padding">
     <div class="service section-padding">
@@ -292,7 +347,7 @@ AppAsset::register($this);
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-service">
                         <i class="pe-7s-plane"></i>
-                        <h4>ДОСТАВКА</h4>
+                        <h4>ДОСТАВКА ЗАПЧАСТЕЙ</h4>
                         <p>апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ...</p>
                     </div>
                 </div>
@@ -306,7 +361,7 @@ AppAsset::register($this);
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-service">
                         <i class="pe-7s-refresh"></i>
-                        <h4>ОБМЕН</h4>
+                        <h4>14 Дней на проверку</h4>
                         <p>апаорпоа алполаоп аоллдав лавалоа ллваукда лаость лсолоула лауолкукло ...</p>
                     </div>
                 </div>
@@ -360,7 +415,7 @@ AppAsset::register($this);
                                     <li><a href="<?=Url::toRoute('site/myaccount')?>">Мой профиль</a></li>
                                     <li><a href="<?=Url::toRoute('site/login')?>">Вход</a></li>
                                     <li><a href="<?=Url::toRoute('site/registration')?>">Регистрация</a></li>
-                                   <li><a href="#">Корзина</a></li>
+                                   <li><a href="<?=Url::toRoute('site/shoppingcart')?>">Корзина</a></li>
                                     <!-- <li><a href="order-complete">My Orders</a></li>
                                     <li><a href="#">My Credit slips</a></li>
                                     <li class="nm"><a href="#">My Addresses</a></li>-->

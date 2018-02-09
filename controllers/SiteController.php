@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\ProductsForm;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -9,6 +10,7 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\CategoriesForm;
 
 class SiteController extends Controller
 {
@@ -127,7 +129,11 @@ class SiteController extends Controller
 
     public function actionShoplist()
     {
-        return $this->render('shoplist');
+//        $categories = CategoriesForm::find()->asArray()->all();
+//        return $this->render('shoplist', compact('categories'));
+
+        $products = ProductsForm::find()->asArray()->all();
+        return $this->render('shoplist', compact('products'));
     }
 
     public function actionRegistration()
@@ -138,5 +144,15 @@ class SiteController extends Controller
     public function actionMyaccount()
     {
         return $this->render('myaccount');
+    }
+
+    public function actionShoppingcart()
+    {
+        return $this->render('shoppingcart');
+    }
+
+    public function actionSingleproduct()
+    {
+        return $this->render('singleproduct');
     }
 }
