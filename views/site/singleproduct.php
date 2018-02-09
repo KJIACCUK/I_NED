@@ -111,7 +111,7 @@ use yii\helpers\Url;
                                 <div class="add-to-box add-to-box2">
                                     <div class="add-to-cart">
                                         <div class="input-content">
-                                            <label>Quantity:</label>
+                                            <label>Кол-во:</label>
                                             <div class="quantity">
                                                 <div class="cart-plus-minus">
                                                     <input type="text" value="0" name="qtybutton" class="cart-plus-minus-box">
@@ -122,21 +122,21 @@ use yii\helpers\Url;
                                             <a href="#">
                                                 <i class="fa fa-shopping-cart"></i>
                                             </a>
-                                            <a href="#">
-                                                <i class="fa fa-heart"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fa fa-retweet"></i>
-                                            </a>
+<!--                                            <a href="#">-->
+<!--                                                <i class="fa fa-heart"></i>-->
+<!--                                            </a>-->
+<!--                                            <a href="#">-->
+<!--                                                <i class="fa fa-retweet"></i>-->
+<!--                                            </a>-->
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="s-cart-img">
-                                <a href="#">
-                                    <img alt="" src="<?=Yii::getAlias('@web/img/icon-img/screenshot_2.png')?>">
-                                </a>
-                            </div>
+<!--                            <div class="s-cart-img">-->
+<!--                                <a href="#">-->
+<!--                                    <img alt="" src="--><?//=Yii::getAlias('@web/img/icon-img/screenshot_2.png')?><!--">-->
+<!--                                </a>-->
+<!--                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@ use yii\helpers\Url;
                                 </div>
                                 <div class="tb-recentb7">
                                     <div class="tb-beg">
-                                        <a href="#">Lambskin Shoe</a>
+                                        <a href="#">-------</a>
                                     </div>
                                     <div class="tb-product-price font-noraure-3">
                                         <span class="amount">$180.00</span>
@@ -265,7 +265,7 @@ use yii\helpers\Url;
                                 </div>
                                 <div class="tb-recentb7">
                                     <div class="tb-beg">
-                                        <a href="#">Lambskin Shoe</a>
+                                        <a href="#">------</a>
                                     </div>
                                     <div class="tb-product-price font-noraure-3">
                                         <span class="amount">$180.00</span>
@@ -280,7 +280,7 @@ use yii\helpers\Url;
                                 </div>
                                 <div class="tb-recentb7">
                                     <div class="tb-beg">
-                                        <a href="#">Lambskin Shoe</a>
+                                        <a href="#">------</a>
                                     </div>
                                     <div class="tb-product-price font-noraure-3">
                                         <span class="amount">$180.00</span>
