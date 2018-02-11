@@ -155,10 +155,10 @@ class SiteController extends Controller
     {
         if(isset($_GET['id']) && $_GET['id'] != "" && filter_var($_GET['id'], FILTER_VALIDATE_INT))
         {
-            $products = ProductsForm::find()->where(['id' => $_GET['id']])->asArray()->one();
+            $one_products = ProductsForm::find()->where(['id' => $_GET['id']])->asArray()->all();
 
-            if (isset($products) && count($products)>0 )
-                return $this->render('singleproduct', compact('products'));
+            if (isset($one_products) && count($one_products)>0 )
+                return $this->render('singleproduct', compact('one_products'));
         }
             return $this->redirect(['site/shoplist']);
     }
