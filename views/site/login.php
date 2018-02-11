@@ -64,22 +64,30 @@ $this->params['breadcrumbs'][] = $this->title;
                                 Запоминить меня <em>*</em>
                             </label>
 <!--                            <a class="forgot-password" href="--><?//=Url::toRoute('modal/sendemail')?><!--">Забыли пароль?</a>-->
-                            <?php
-                                Modal::begin([
-                                    'size' => 'modal-sm',
-                                    'header' => '<b>Восстановление пароля</b>',
-                                    'toggleButton' => [
-                                        'label' => 'Забыли пароль?',
-                                        'tab' => 'text',
-                                        'class' => 'forgot-password '
-                                    ]
-                                ]);
-                                echo '<label class="l-contact">Введите адрес эл. почты:</label>
-                                    <p class="checkout-coupon log a-an"><input type="email"></p>
-                                    <input value="Отправить" class="btn btn-default mod-sub" type="submit">';
-                                Modal::end();
-                            ?>
+                            <a class="forgot-password" data-original-title="Забыли пароль?" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="#">Забыли пароль?
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <div class="quick-view modal fade in" id="quick-view">
+                                <div class="col-md-2 col-md-offset-5">
+                                    <div class="d-table">
+                                        <div class="d-tablecell">
+                                            <div class="main-view_my modal-content">
+                                                <div class="modal-footer" data-dismiss="modal">
+                                                    <span>x</span>
+                                                </div>
+                                                    <h7 class="l-contact">
+                                                        Введите адрес эл. почты:
+                                                    </h7>
+                                                <input type="email" class="form-control" placeholder="">
+                                                <input value="Отправить" class="btn btn-default mod-sub" type="submit">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
+
                         <p class="login-submit5">
                             <input class="button-primary" type="submit" value="Войти">
                         </p>
