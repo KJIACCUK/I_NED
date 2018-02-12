@@ -47,9 +47,6 @@ use yii\helpers\Url;
                                     <div class="quantity ray">
                                         <input class="input-text qty text" type="number" size="4" title="Qty" value="2" min="0" step="1">
                                     </div>
-<!--                                    <a class="remove" href="#">-->
-<!--                                        <span>x</span>-->
-<!--                                    </a>-->
                                 </td>
                                 <td class="sop-cart">
                                     <div class="tb-product-price font-noraure-3">
@@ -74,9 +71,6 @@ use yii\helpers\Url;
                                     <div class="quantity ray">
                                         <input class="input-text qty text" type="number" size="4" title="Qty" value="2" min="0" step="1">
                                     </div>
-<!--                                    <a class="remove" href="#">-->
-<!--                                        <span>x</span>-->
-<!--                                    </a>-->
                                 </td>
                                 <td class="sop-cart">
                                     <div class="tb-product-price font-noraure-3">

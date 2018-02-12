@@ -7,7 +7,6 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Url;
-use yii\bootstrap\Modal;
 
 $this->title = 'Вход в профиль';
 $this->params['breadcrumbs'][] = $this->title;
@@ -32,23 +31,13 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="col-md-6 col-xs-12">
                 <div class="tb-login-form ">
                     <h5 class="tb-title">Вход в аккаунт</h5>
-<!--                    <p>Hello, Welcome your to account</p>-->
-<!--                    <div class="tb-social-login">-->
-<!--                        <a class="tb-facebook-login" href="#">-->
-<!--                            <i class="fa fa-facebook"></i>-->
-<!--                            Sign In With Facebook-->
-<!--                        </a>-->
-<!--                        <a class="tb-twitter-login res" href="#">-->
-<!--                            <i class="fa fa-twitter"></i>-->
-<!--                            Sign In With Twitter-->
-<!--                        </a>-->
-<!--                    </div>-->
                     <form action="#">
                         <p class="checkout-coupon top log a-an">
                             <label class="l-contact">
                                 Логин (Email)
                                 <em>*</em>
                             </label>
+
                             <input type="email" placeholder="Введите логин">
                         </p>
                         <p class="checkout-coupon top-down log a-an">
@@ -63,7 +52,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 <input type="checkbox" name="rememberme7">
                                 Запоминить меня <em>*</em>
                             </label>
-<!--                            <a class="forgot-password" href="--><?//=Url::toRoute('modal/sendemail')?><!--">Забыли пароль?</a>-->
+                            <!--                            <a class="forgot-password" href="--><?//=Url::toRoute('modal/sendemail')?><!--">Забыли пароль?</a>-->
                             <a class="forgot-password" data-original-title="Забыли пароль?" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="#">Забыли пароль?
                                 <i class="fa fa-eye"></i>
                             </a>
@@ -75,9 +64,9 @@ $this->params['breadcrumbs'][] = $this->title;
                                                 <div class="modal-footer" data-dismiss="modal">
                                                     <span>x</span>
                                                 </div>
-                                                    <h7 class="l-contact">
-                                                        Введите адрес эл. почты:
-                                                    </h7>
+                                                <h7 class="l-contact">
+                                                    Введите адрес эл. почты:
+                                                </h7>
                                                 <input type="email" class="form-control" placeholder="">
                                                 <input value="Отправить" class="btn btn-default mod-sub" type="submit">
                                             </div>

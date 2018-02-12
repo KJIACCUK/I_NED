@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-use app\models\ProductsForm;
+use app\models\Products;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -10,7 +10,7 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
-use app\models\CategoriesForm;
+use app\models\Categories;
 
 class SiteController extends Controller
 {
@@ -132,7 +132,7 @@ class SiteController extends Controller
 //        $categories = CategoriesForm::find()->asArray()->all();
 //        return $this->render('shoplist', compact('categories'));
 
-        $products = ProductsForm::find()->asArray()->all();
+        $products = Products::find()->asArray()->all();
         return $this->render('shoplist', compact('products'));
     }
 
@@ -155,7 +155,7 @@ class SiteController extends Controller
     {
         if(isset($_GET['id']) && $_GET['id'] != "" && filter_var($_GET['id'], FILTER_VALIDATE_INT))
         {
-            $one_products = ProductsForm::find()->where(['id' => $_GET['id']])->asArray()->all();
+            $one_products = Products::find()->where(['id' => $_GET['id']])->asArray()->all();
 
             if (isset($one_products) && count($one_products)>0 )
                 return $this->render('singleproduct', compact('one_products'));
