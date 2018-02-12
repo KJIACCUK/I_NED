@@ -312,12 +312,5 @@ $(".pro-img-tab-slider").owlCarousel({
         }
       $button.parent().find("input").val(newVal);
      });
-
-     /*-----------------------------
-     id cart
-     ------------------------------- */
-
-
-
 	
 })(jQuery); 

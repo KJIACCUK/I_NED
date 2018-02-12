@@ -2017,6 +2017,9 @@
 		$("<style type='text/css'>.fancybox-margin{margin-right:" + (w2 - w1) + "px;}</style>").appendTo("head");
 	});
 
+    /*-----------------------------
+	id cart
+	------------------------------- */
     $(".add-to-cart").on('click', function (e) {
         e.preventDefault();
         var id = $(this).data('id');
