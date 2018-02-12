@@ -208,7 +208,7 @@ $(".pro-img-tab-slider").owlCarousel({
     $( "#slider-range" ).slider({
         range: true,
         min: 40,
-        max: 600,
+        max: 1300,
         values: [ 20, 1560 ],
         slide: function( event, ui ) {
         $( "#amount" ).val( "$" + ui.values[ 0 ] + " - "+ "$" + ui.values[ 1 ] );
@@ -312,7 +312,27 @@ $(".pro-img-tab-slider").owlCarousel({
         }
       $button.parent().find("input").val(newVal);
      });
-    
-    
+
+     /*-----------------------------
+     id cart
+     ------------------------------- */
+
+     $(".add-to-cart").on('click', function (e) {
+        e.preventDefault();
+        var id = $(this).data('id');
+        $.ajax({
+            url: '/cart/add',
+            data: {id: id},
+            type: 'GET',
+            success: function (res) {
+               if(!res) alert('Ошибочка вышла!');
+                console.log(res);
+            },
+            error: function () {
+               alert('Message error!!!');
+            }
+        });
+    });
+
 	
 })(jQuery); 
