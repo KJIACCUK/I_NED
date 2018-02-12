@@ -1016,6 +1016,11 @@ i.pe-7s-back {transform: rotateY(-180deg);}
 	padding: 60px;
 	border-radius: 0;
 }
+.main-view_my {
+    background: #fff none repeat scroll 0 0;
+    padding: 20px;
+    border-radius: 5px;
+}
 .quick-view .modal-dialog {width: 100%;}
 .quick-view .modal-footer {
 	background: #fff none repeat scroll 0 0;
@@ -2596,7 +2601,7 @@ h4.yith-wcwl-share-title {
     vertical-align: middle;
 }
 .mod-sub{
-    margin: 15px 0px 0px 85px;
+    margin: 15px 0px 0px 0px;
 }
 /*--------------------------------------*/
 .forgot-password1 {
