@@ -356,9 +356,9 @@ $(".pro-img-tab-slider").owlCarousel({
         });
     }
 
-    /*
+    /*-----------
     all Cart
-     */
+    --------------- */
     $(".clear-cart").on('click', function (e) {
         e.preventDefault();
         $.ajax({
@@ -368,9 +368,9 @@ $(".pro-img-tab-slider").owlCarousel({
         });
     });
 
-    /*
+    /*--------------
     single Cart
-     */
+     ---------------*/
     $('#quick-view_cart .modal-body').on('click', '.del-sing-cart', function(){
         var id = $(this).data('id');
         $.ajax({
