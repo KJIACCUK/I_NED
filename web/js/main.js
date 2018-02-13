@@ -312,5 +312,80 @@ $(".pro-img-tab-slider").owlCarousel({
         }
       $button.parent().find("input").val(newVal);
      });
+
+    /*-----------------------------
+    id cart
+    ------------------------------- */
+    function showCart(cart){
+        $('#quick-view_cart .modal-body').html(cart);
+        $('#quick-view_cart').modal();
+    }
+
+    $(".add-to-cart").on('click', function (e) {
+        e.preventDefault();
+        var id = $(this).data('id');
+        $.ajax({
+            url: '/dom-maz-old/web/cart/add',
+            data: {id: id},
+            type: 'GET',
+            success: function (res) {
+                if(!res) alert('Error( list not faund )!');
+                showCart(res);
+            },
+            error: function () {
+                alert('Message error!!!');
+            }
+        });
+    });
+
+
+    /*--------------------------------
+       clear Cart
+     --------------------------------*/
+    function clearCart() {
+        $.ajax({
+            url: '/dom-maz-old/web/cart/clear',
+            type: 'GET',
+            success: function (res) {
+                if(!res) alert('Error( list not faund )!');
+                showCart(res);
+            },
+            error: function () {
+                alert('Message error!!!');
+            }
+        });
+    }
+
+    /*
+    all Cart
+     */
+    $(".clear-cart").on('click', function (e) {
+        e.preventDefault();
+        $.ajax({
+            success: function () {
+                clearCart();
+            }
+        });
+    });
+
+    /*
+    single Cart
+     */
+    $('#quick-view_cart .modal-body').on('click', '.del-sing-cart', function(){
+        var id = $(this).data('id');
+        $.ajax({
+            url: '/dom-maz-old/web/cart/clear-single-cart',
+            data: {id: id},
+            type: 'GET',
+            success: function (res) {
+                if(!res) alert('Error( list not faund )!');
+                showCart(res);
+            },
+            error: function () {
+                alert('Message error!!!');
+            }
+        });
+    });
+
 	
 })(jQuery); 

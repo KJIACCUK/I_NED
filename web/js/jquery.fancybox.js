@@ -2017,24 +2017,4 @@
 		$("<style type='text/css'>.fancybox-margin{margin-right:" + (w2 - w1) + "px;}</style>").appendTo("head");
 	});
 
-    /*-----------------------------
-	id cart
-	------------------------------- */
-    $(".add-to-cart").on('click', function (e) {
-        e.preventDefault();
-        var id = $(this).data('id');
-        $.ajax({
-            url: '/cart/add',
-            data: {id: id},
-            type: 'GET',
-            success: function (res) {
-                if(!res) alert('Ошибочка вышла!');
-                console.log(res);
-            },
-            error: function () {
-                alert('Message error!!!');
-            }
-        });
-    });
-
 }(window, document, jQuery));

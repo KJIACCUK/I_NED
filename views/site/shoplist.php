@@ -457,9 +457,19 @@ use yii\helpers\Url;
                         </div>
                     </div>
                 </div>
-                <!-- мод окн -->
             </div>
         </div>
     </div>
 </div>
-<!-- quick view end -->
+<!-- мод окн -->
+<?php
+\yii\bootstrap\Modal::begin([
+    'size' => 'modal-lg',
+    'header' => '<h5>Предварительный просмотр корзины</h5>',
+    'id' => 'quick-view_cart',
+    'footer' => '<button type = "button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                 <button type="button" class="btn btn-success">Оформить заказ</button>
+                 <button type="button" class="btn btn-danger clear-cart">Очистить корзину</button>'
+]);
+\yii\bootstrap\Modal::end();
+?>
