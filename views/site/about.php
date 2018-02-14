@@ -66,7 +66,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 </div>
                                 <div class="client-text">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,…</p>
-                                    <h2>ROSE</h2>
+                                    <h2>Миг Александр</h2>
                                     <p class="client-info">-- Graphics Designer --</p>
                                 </div>
                             </div>
@@ -76,28 +76,8 @@ $this->params['breadcrumbs'][] = $this->title;
                                 </div>
                                 <div class="client-text">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,…</p>
-                                    <h2>TERESA</h2>
+                                    <h2>Миг Александр</h2>
                                     <p class="client-info">-- Web Developer --</p>
-                                </div>
-                            </div>
-                            <div class="single-item-testi">
-                                <div class="client-image">
-                                    <img alt="" src="<?=Yii::getAlias('@web/img/about/testi3.jpg')?>">
-                                </div>
-                                <div class="client-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,…</p>
-                                    <h2>MONICA</h2>
-                                    <p class="client-info">-- Market Research --</p>
-                                </div>
-                            </div>
-                            <div class="single-item-testi">
-                                <div class="client-image">
-                                    <img alt="" src="<?=Yii::getAlias('@web/img/about/testi4.jpg')?>">
-                                </div>
-                                <div class="client-text">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,…</p>
-                                    <h2>KATRINA</h2>
-                                    <p class="client-info">-- Programmer --</p>
                                 </div>
                             </div>
                         </div>
@@ -106,8 +86,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="row creative-member-area">
                     <div class="about-sec-head">
                         <h2 class="creative-member">
-                            Наши
-                            <strong>менеджеры</strong>
+                            наши
+                            <strong>содрудники</strong>
                         </h2>
                         <p> Наше мастерство работы с клиентами действительно высокое и стандарт.</p>
                     </div>
@@ -116,8 +96,8 @@ $this->params['breadcrumbs'][] = $this->title;
                             <div class="member-image">
                                 <img alt="" src="<?=Yii::getAlias('@web/img/about/member1.jpg')?>">
                                 <div class="member-title">
-                                    <h2>Jennifear lawrence</h2>
-                                    <h3>Ceo Founder</h3>
+                                    <h2>Миг Александр</h2>
+                                    <h3>Front end developer</h3>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -144,8 +124,8 @@ $this->params['breadcrumbs'][] = $this->title;
                             <div class="member-image">
                                 <img alt="" src="<?=Yii::getAlias('@web/img/about/member2.jpg')?>">
                                 <div class="member-title">
-                                    <h2>Martin Jerry</h2>
-                                    <h3>Ceo Founder</h3>
+                                    <h2>Миг Александр</h2>
+                                    <h3>Back end developer</h3>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -172,8 +152,8 @@ $this->params['breadcrumbs'][] = $this->title;
                             <div class="member-image">
                                 <img alt="" src="<?=Yii::getAlias('@web/img/about/member3.jpg')?>">
                                 <div class="member-title">
-                                    <h2>Danny Louis</h2>
-                                    <h3>Ceo Founder</h3>
+                                    <h2>Миг Александр</h2>
+                                    <h3>Designer</h3>
                                 </div>
                             </div>
                             <div class="member-info">
@@ -200,7 +180,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <div class="member-image">
                                 <img alt="" src="<?=Yii::getAlias('@web/img/about/member4.jpg')?>">
                                 <div class="member-title">
-                                    <h2>Michael Johnson</h2>
+                                    <h2>Миг Александр</h2>
                                     <h3>Ceo Founder</h3>
                                 </div>
                             </div>

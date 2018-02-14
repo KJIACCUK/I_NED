@@ -243,7 +243,7 @@ use yii\helpers\Url;
                                                     <div class="product-dsc">
                                                         <h3><a href="<?=Url::to(['site/singleproduct', 'id'=>$product['id']])?>"><?=$product['name'];?></a></h3>
                                                         <div class="star-price">
-                                                            <span class="price-left"><?=$product['price']?></span>
+                                                            <span class="price-left"><?=$product['price']?>$</span>
 <!--                                                            <span class="star-right">-->
 <!--                                                                        <i class="fa fa-star"></i>-->
 <!--                                                                        <i class="fa fa-star"></i>-->
@@ -257,7 +257,7 @@ use yii\helpers\Url;
                                                         <a href="#" data-placement="top" data-target="#quick-view" data-trigger="hover" data-toggle="modal" data-original-title="Подробнее"><i class="fa fa-eye"></i></a>
 <!--                                                        <a data-placement="top" data-toggle="tooltip" href="#" data-original-title="Add To Wishlist"><i class="fa fa-heart"></i></a>-->
 <!--                                                        <a title="#" data-placement="top" data-toggle="tooltip" href="#" data-original-title="Compare"><i class="fa fa-retweet"></i></a>-->
-                                                        <a class="add-to-cart" href="<?=Url::to(['cart/add', 'id' => $product['id']])?>" data-toggle="tooltip" data-placement="top" data-id ="<?=$product['id']?>" title="Добавить в корзину"><i class="fa fa-shopping-cart"></i></a>
+                                                        <a class="add-prod-to-cart" href="<?=Url::to(['cart/add', 'id' => $product['id']])?>" data-toggle="tooltip" data-placement="top" data-id ="<?=$product['id']?>" title="Добавить в корзину"><i class="fa fa-shopping-cart"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -288,12 +288,12 @@ use yii\helpers\Url;
                                                     </div>
                                                     <div class="tb-product-wrap-price-rating">
                                                         <div class="tb-product-price font-noraure-3">
-                                                            <span class="amount2 ana"><?=$product['price']?></span>
+                                                            <span class="amount2 ana"><?=$product['price']?>$</span>
                                                         </div>
                                                     </div>
                                                     <p class="desc"><?=$product['description']?></p>
                                                     <div class="last-cart l-mrgn ns">
-                                                        <a class="las4 add-to-cart" href="<?=Url::toRoute(['cart/add', 'id' => $product['id']])?>" data-id="<?=$product['id']?>">Добавить в корзину</a>
+                                                        <a class="las4 add-prod-to-cart" href="<?=Url::toRoute(['cart/add', 'id' => $product['id']])?>" data-id="<?=$product['id']?>">Добавить в корзину</a>
                                                     </div>
 <!--                                                    <div class="tb-product-btn">-->
 <!--                                                        <a href="#">-->
@@ -461,15 +461,3 @@ use yii\helpers\Url;
         </div>
     </div>
 </div>
-<!-- мод окн -->
-<?php
-\yii\bootstrap\Modal::begin([
-    'size' => 'modal-lg',
-    'header' => '<h5>Предварительный просмотр корзины</h5>',
-    'id' => 'quick-view_cart',
-    'footer' => '<button type = "button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
-                 <button type="button" class="btn btn-success">Оформить заказ</button>
-                 <button type="button" class="btn btn-danger clear-cart">Очистить корзину</button>'
-]);
-\yii\bootstrap\Modal::end();
-?>

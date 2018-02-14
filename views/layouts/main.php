@@ -71,33 +71,33 @@ AppAsset::register($this);
                                     <li><a href="<?=Url::home()?>">Главная</a></li>
                                     <li><a href="<?=Url::toRoute('site/about')?>">О нас</a></li>
                                     <li><a href="<?=Url::toRoute('site/shoplist')?>">Каталог</a>
-                                        <div class="magamenu ">
-                                            <ul class="again">
-                                                <li class="single-menu colmd4">
-                                                    <span>Категория 1</span>
-                                                    <a href="#">1</a>
-                                                    <a href="#">2</a>
-                                                    <a href="#">3</a>
-                                                </li>
-                                                <li class="single-menu colmd4">
-                                                    <span>Категория 2</span>
-                                                    <a href="#">1</a>
-                                                    <a href="#">2</a>
-                                                    <a href="#">3</a>
-                                                </li>
-                                                <li class="single-menu colmd4">
-                                                    <span>Категория 3</span>
-                                                    <a href="#">1</a>
-                                                    <a href="#">2</a>
-                                                    <a href="#">3</a>
-                                                </li>
-                                                <li class="single-menu colmd4 colmd5">
-                                                    <a href="#">
-                                                        <img alt="" src="<?=Yii::getAlias('@web/img/maga-banner.png')?>">
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+<!--                                        <div class="magamenu ">-->
+<!--                                            <ul class="again">-->
+<!--                                                <li class="single-menu colmd4">-->
+<!--                                                    <span>Категория 1</span>-->
+<!--                                                    <a href="#">1</a>-->
+<!--                                                    <a href="#">2</a>-->
+<!--                                                    <a href="#">3</a>-->
+<!--                                                </li>-->
+<!--                                                <li class="single-menu colmd4">-->
+<!--                                                    <span>Категория 2</span>-->
+<!--                                                    <a href="#">1</a>-->
+<!--                                                    <a href="#">2</a>-->
+<!--                                                    <a href="#">3</a>-->
+<!--                                                </li>-->
+<!--                                                <li class="single-menu colmd4">-->
+<!--                                                    <span>Категория 3</span>-->
+<!--                                                    <a href="#">1</a>-->
+<!--                                                    <a href="#">2</a>-->
+<!--                                                    <a href="#">3</a>-->
+<!--                                                </li>-->
+<!--                                                <li class="single-menu colmd4 colmd5">-->
+<!--                                                    <a href="#">-->
+<!--                                                        <img alt="" src="--><?//=Yii::getAlias('@web/img/maga-banner.png')?><!--">-->
+<!--                                                    </a>-->
+<!--                                                </li>-->
+<!--                                            </ul>-->
+<!--                                        </div>-->
                                     </li>
 <!--                                    <li><a href="shop.html">Lookbook</a></li>-->
 <!--                                    <li><a href="blog.html">Blog</a></li>-->
@@ -130,8 +130,8 @@ AppAsset::register($this);
                                     <ul>
                                         <li><a href="<?=Url::home()?>">Главная</a></li>
                                         <li><a href="<?=Url::toRoute('site/shoplist')?>">Каталог</a>
-                                            <ul>
-                                                <li><a href="#">Комплектующие 1</a>
+<!--                                            <ul>-->
+<!--                                                <li><a href="#">Комплектующие 1</a>-->
 <!--                                                    <ul>-->
 <!--                                                        <li>-->
 <!--                                                            <span>Раздел</span>-->
@@ -155,8 +155,8 @@ AppAsset::register($this);
 <!---->
 <!--                                                        </li>-->
 <!--                                                    </ul>-->
-                                                </li>
-                                                <li><a href="#">Комплектующие 2</a>
+<!--                                                </li>-->
+<!--                                                <li><a href="#">Комплектующие 2</a>-->
 <!--                                                    <ul>-->
 <!--                                                        <li>-->
 <!--                                                            <span>Раздел</span>-->
@@ -179,8 +179,8 @@ AppAsset::register($this);
 <!--                                                            <a href="#">3</a>-->
 <!--                                                        </li>-->
 <!--                                                    </ul>-->
-                                                </li>
-                                                <li><a href="#">Комплектующие 3</a>
+<!--                                                </li>-->
+<!--                                                <li><a href="#">Комплектующие 3</a>-->
 <!--                                                    <ul>-->
 <!--                                                        <li>-->
 <!--                                                            <span>Раздел</span>-->
@@ -195,8 +195,8 @@ AppAsset::register($this);
 <!--                                                            <a href="#">3</a>-->
 <!--                                                        </li>-->
 <!--                                                    </ul>-->
-                                                </li>
-                                            </ul>
+<!--                                                </li>-->
+<!--                                            </ul>-->
                                         </li>
                                         <!--<li><a href="shop.html">Lookbook</a></li>
                                         <li><a href="blog.html">Blog</a></li>-->
@@ -504,7 +504,21 @@ AppAsset::register($this);
     <!-- footer-bottom area end -->
 </footer>
 
+<!-- мод окн -->
+
+
 <?php $this->endBody() ?>
 </body>
 </html>
 <?php $this->endPage() ?>
+<?php
+\yii\bootstrap\Modal::begin([
+    'size' => 'modal-lg',
+    'header' => '<h5><i class="fa fa-shopping-cart"></i> Предварительный просмотр корзины</h5>',
+    'id' => 'quick-view_cart',
+    'footer' => '<button type = "button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                 <button type="button" class="btn btn-success">Оформить заказ</button>
+                 <button type="button" class="btn btn-danger clear-cart">Очистить корзину</button>'
+]);
+\yii\bootstrap\Modal::end();
+?>

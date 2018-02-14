@@ -314,22 +314,18 @@ $(".pro-img-tab-slider").owlCarousel({
      });
 
     /*-----------------------------
-    id cart
+    id cart add
     ------------------------------- */
-    function showCart(cart){
-        $('#quick-view_cart .modal-body').html(cart);
-        $('#quick-view_cart').modal();
-    }
-
-    $(".add-to-cart").on('click', function (e) {
+    $(".add-prod-to-cart").on('click', function (e) {
         e.preventDefault();
-        var id = $(this).data('id');
+        var id = $(this).data('id'),
+        col = $('#col').val();
         $.ajax({
             url: '/dom-maz-old/web/cart/add',
-            data: {id: id},
+            data: {id: id, col: col},
             type: 'GET',
             success: function (res) {
-                if(!res) alert('Error( list not faund )!');
+               // if(!res) alert('Error( list not faund )!');
                 showCart(res);
             },
             error: function () {
@@ -337,6 +333,11 @@ $(".pro-img-tab-slider").owlCarousel({
             }
         });
     });
+
+    function showCart(cart){
+        $('#quick-view_cart .modal-body').html(cart);
+        $('#quick-view_cart').modal();
+    }
 
 
     /*--------------------------------
@@ -347,7 +348,7 @@ $(".pro-img-tab-slider").owlCarousel({
             url: '/dom-maz-old/web/cart/clear',
             type: 'GET',
             success: function (res) {
-                if(!res) alert('Error( list not faund )!');
+               // if(!res) alert('Error( list not faund )!');
                 showCart(res);
             },
             error: function () {
@@ -378,7 +379,7 @@ $(".pro-img-tab-slider").owlCarousel({
             data: {id: id},
             type: 'GET',
             success: function (res) {
-                if(!res) alert('Error( list not faund )!');
+               // if(!res) alert('Error( list not faund )!');
                 showCart(res);
             },
             error: function () {

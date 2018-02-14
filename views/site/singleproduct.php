@@ -115,12 +115,12 @@ use yii\helpers\Url;
                                             <label>Кол-во:</label>
                                             <div class="quantity">
                                                 <div class="cart-plus-minus">
-                                                    <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box">
+                                                    <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box" id = "col">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="product-icon">
-                                            <a href="#">
+                                            <a href="<?=Url::toRoute(['cart/add', 'id'=>$one_product['id']])?>" class="add-prod-to-cart" data-id ="<?=$one_product['id']?>">
                                                 <i class="fa fa-shopping-cart"></i>
                                             </a>
 <!--                                            <a href="#">-->

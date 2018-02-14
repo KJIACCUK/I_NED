@@ -54,6 +54,7 @@
                     </div>
 </div>
 <?php else:?>
-    <h4 align="center">Корзина пуста..</h4>
+    <h4 align="center"><i class="fa fa-trash-o" aria-hidden="true"></i>
+        Корзина пуста..</h4>
 <?php endif;?>
 

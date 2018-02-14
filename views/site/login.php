@@ -57,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 <i class="fa fa-eye"></i>
                             </a>
                             <div class="quick-view modal fade in" id="quick-view">
-                                <div class="col-md-2 col-md-offset-5">
+                                <div class="col-md-3 col-md-offset-5">
                                     <div class="d-table">
                                         <div class="d-tablecell">
                                             <div class="main-view_my modal-content">
