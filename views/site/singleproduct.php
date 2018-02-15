@@ -5,7 +5,10 @@
  * Date: 09.02.2018
  * Time: 13:56
  */
+
 use yii\helpers\Url;
+use yii\bootstrap\Modal;
+
 ?>
 
 <!-- pages-title-start -->
@@ -325,3 +328,17 @@ use yii\helpers\Url;
     </div>
     <?php endforeach;?>
 </section>
+
+<!-- мод окн -->
+<?php
+Modal::begin([
+    'size' => 'modal-lg',
+    'header' => '<h5><i class="fa fa-shopping-cart"></i> Предварительный просмотр корзины</h5>',
+    'id' => 'quick-view_cart',
+    'footer' => '<button type = "button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                     <button type="button" class="btn btn-success">Оформить заказ</button>
+                     <button type="button" class="btn btn-danger clear-cart">Очистить корзину</button>'
+]);
+Modal::end();
+?>
+<!---------->

@@ -10,6 +10,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 use yii\helpers\Url;
+use yii\bootstrap\Modal;
 
 AppAsset::register($this);
 ?>
@@ -231,44 +232,10 @@ AppAsset::register($this);
                                         <button type="submit"><i class="pe-7s-search"></i></button>
                                     </form>
                                 </li>
-                                <li><a href="<?=Url::toRoute('site/shoppingcart')?>"><i class="fa fa-shopping-cart"></i><span class="color1">*</span></a>
+                                <li class="drop-cart-icon"><a href="<?=Url::toRoute('site/shoppingcart')?>"><i class="fa fa-shopping-cart"></i><span class="color1">*</span></a>
                                     <ul class="drop-cart">
-                                       <!-- <li>
-                                            <a href="cart.html"><img src="img/cart/1.png" alt="" /></a>
-                                            <div class="add-cart-text">
-                                                <p><a href="#">1</a></p>
-                                                <p>$50.00</p>
-                                                <span>Color : Blue</span>
-                                                <span>Size   : SL</span>
-                                            </div>
-                                            <div class="pro-close">
-                                                <i class="pe-7s-close"></i>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a href="cart.html"><img src="img/cart/2.png" alt="" /></a>
-                                            <div class="add-cart-text">
-                                                <p><a href="#">2</a></p>
-                                                <p>$50.00 x 2</p>
-                                                <span>Color : Blue</span>
-                                                <span>Size   : SL</span>
-                                            </div>
-                                            <div class="pro-close">
-                                                <i class="pe-7s-close"></i>
-                                            </div>
-                                        </li>
-                                        <li class="total-amount clearfix">
-                                            <span class="floatleft">total</span>
-                                            <span class="floatright"><strong>= $150.00</strong></span>
-                                        </li>
-                                        <li>
-                                            <div class="goto text-center">
-                                                <a href="cart.html"><strong>go to cart &nbsp;<i class="pe-7s-angle-right"></i></strong></a>
-                                            </div>
-                                        </li>
-                                        <li class="checkout-btn text-center">
-                                            <a href="checkout.html">Check out</a>
-                                        </li>-->
+                                        <!-------------------->
+
                                     </ul>
                                 </li>
                             </ul>
@@ -504,21 +471,7 @@ AppAsset::register($this);
     <!-- footer-bottom area end -->
 </footer>
 
-<!-- мод окн -->
-
-
 <?php $this->endBody() ?>
 </body>
 </html>
 <?php $this->endPage() ?>
-<?php
-\yii\bootstrap\Modal::begin([
-    'size' => 'modal-lg',
-    'header' => '<h5><i class="fa fa-shopping-cart"></i> Предварительный просмотр корзины</h5>',
-    'id' => 'quick-view_cart',
-    'footer' => '<button type = "button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
-                 <button type="button" class="btn btn-success">Оформить заказ</button>
-                 <button type="button" class="btn btn-danger clear-cart">Очистить корзину</button>'
-]);
-\yii\bootstrap\Modal::end();
-?>

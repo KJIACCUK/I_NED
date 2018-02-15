@@ -7,6 +7,7 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Url;
+use yii\bootstrap\Modal;
 
 $this->title = 'Вход в профиль';
 $this->params['breadcrumbs'][] = $this->title;

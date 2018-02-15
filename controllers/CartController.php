@@ -58,7 +58,14 @@ class CartController extends AppController
 
         $this -> layout = false;
         return $this->render('cartmodal', compact('session'));
+    }
 
+    public function actionDropCart(){
+        $session = Yii::$app->session;
+        $session->open();
+        $this -> layout = false;
+
+        return $this->render('drop-cart', compact($session));
     }
 
 }

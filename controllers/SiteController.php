@@ -11,12 +11,14 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Categories;
+use app\models\Cart;
 
 class SiteController extends Controller
 {
     /**
      * @inheritdoc
      */
+
     public function behaviors()
     {
         return [
@@ -64,6 +66,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $this->layout = 'main';
+
         return $this->render('index');
     }
 
@@ -162,4 +165,5 @@ class SiteController extends Controller
         }
             return $this->redirect(['site/shoplist']);
     }
+
 }

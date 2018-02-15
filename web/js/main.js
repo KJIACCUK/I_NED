@@ -388,5 +388,22 @@ $(".pro-img-tab-slider").owlCarousel({
         });
     });
 
-	
+    /*-----------------
+    drop Cart
+     -------------------*/
+    function dropCart(cart)
+    {
+        $('.drop-cart').html(cart);
+    }
+
+    $(".drop-cart-icon").on('mouseover', function() {
+        $.ajax({
+            url: '/dom-maz-old/web/cart/drop-cart',
+            success: function (res) {
+                dropCart(res);
+            }
+        });
+    });
+
+
 })(jQuery); 

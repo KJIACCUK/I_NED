@@ -7,6 +7,8 @@
  */
 
 use yii\helpers\Url;
+use yii\bootstrap\Modal;
+
 ?>
 <section class="contact-img-area">
     <div class="container">
@@ -117,59 +119,64 @@ use yii\helpers\Url;
 <!--                            </li>-->
 <!--                        </ul>-->
 <!--                    </div>-->
-                    <div class="top-shop-sidebar an-shop">
-                        <h3 class="wg-title">Последние</h3>
-                        <ul>
-                            <li class="b-none">
-                                <div class="tb-recent-thumbb">
-                                    <a href="">
-                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/p1.jpg')?>" alt="">
-                                    </a>
-                                </div>
-                                <div class="tb-recentb">
 
-                                    <div class="tb-beg">
-                                        <a href="#">----</a>
-                                    </div>
 
-                                    <div class="tb-product-price font-noraure-3">
-                                        <span class="amount">$180.00</span>
-                                        <span class="amount2 ana">$170.00</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="b-none">
-                                <div class="tb-recent-thumbb">
-                                    <a href="">
-                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/p1.jpg')?>" alt="">
-                                    </a>
-                                </div>
-                                <div class="tb-recentb">
-                                    <div class="tb-beg">
-                                        <a href="#">------</a>
-                                    </div>
-                                    <div class="tb-product-price font-noraure-3">
-                                        <span class="amount2 ana">$170.00</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="b-none agn">
-                                <div class="tb-recent-thumbb">
-                                    <a href="">
-                                        <img class="attachment" src="<?=Yii::getAlias('@web/img/products/p1.jpg')?>" alt="">
-                                    </a>
-                                </div>
-                                <div class="tb-recentb">
-                                    <div class="tb-beg">
-                                        <a href="#">------</a>
-                                    </div>
-                                    <div class="tb-product-price font-noraure-3">
-                                        <span class="amount2 ana">$170.00</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+<!--                    <div class="top-shop-sidebar an-shop">-->
+<!--                        <h3 class="wg-title">Последние</h3>-->
+<!--                        <ul>-->
+<!--                            <li class="b-none">-->
+<!--                                <div class="tb-recent-thumbb">-->
+<!--                                    <a href="">-->
+<!--                                        <img class="attachment" src="--><?//=Yii::getAlias('@web/img/products/p1.jpg')?><!--" alt="">-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                                <div class="tb-recentb">-->
+<!---->
+<!--                                    <div class="tb-beg">-->
+<!--                                        <a href="#">----</a>-->
+<!--                                    </div>-->
+<!---->
+<!--                                    <div class="tb-product-price font-noraure-3">-->
+<!--                                        <span class="amount">$180.00</span>-->
+<!--                                        <span class="amount2 ana">$170.00</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                            <li class="b-none">-->
+<!--                                <div class="tb-recent-thumbb">-->
+<!--                                    <a href="">-->
+<!--                                        <img class="attachment" src="--><?//=Yii::getAlias('@web/img/products/p1.jpg')?><!--" alt="">-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                                <div class="tb-recentb">-->
+<!--                                    <div class="tb-beg">-->
+<!--                                        <a href="#">------</a>-->
+<!--                                    </div>-->
+<!--                                    <div class="tb-product-price font-noraure-3">-->
+<!--                                        <span class="amount2 ana">$170.00</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                            <li class="b-none agn">-->
+<!--                                <div class="tb-recent-thumbb">-->
+<!--                                    <a href="">-->
+<!--                                        <img class="attachment" src="--><?//=Yii::getAlias('@web/img/products/p1.jpg')?><!--" alt="">-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                                <div class="tb-recentb">-->
+<!--                                    <div class="tb-beg">-->
+<!--                                        <a href="#">------</a>-->
+<!--                                    </div>-->
+<!--                                    <div class="tb-product-price font-noraure-3">-->
+<!--                                        <span class="amount2 ana">$170.00</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+
+
+
                     <div class="ro-info-box-wrap tpl3 st">
                         <div class="tb-image">
                             <img src="<?=Yii::getAlias('@web/img/products/a1.jpg')?>" alt="">
@@ -461,3 +468,17 @@ use yii\helpers\Url;
         </div>
     </div>
 </div>
+
+<!-- мод окн -->
+<?php
+Modal::begin([
+    'size' => 'modal-lg',
+    'header' => '<h5><i class="fa fa-shopping-cart"></i> Предварительный просмотр корзины</h5>',
+    'id' => 'quick-view_cart',
+    'footer' => '<button type = "button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
+                     <button type="button" class="btn las4 btn-success">Оформить заказ</button>
+                     <button type="button" class="btn btn-danger clear-cart">Очистить корзину</button>'
+]);
+Modal::end();
+?>
+<!---------->
