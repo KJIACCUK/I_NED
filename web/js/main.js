@@ -370,7 +370,7 @@ $(".pro-img-tab-slider").owlCarousel({
     });
 
     /*--------------
-    single Cart
+    clear single Cart
      ---------------*/
     $('#quick-view_cart .modal-body').on('click', '.del-sing-cart', function(){
         var id = $(this).data('id');

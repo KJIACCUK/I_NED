@@ -20,15 +20,15 @@ $this->title = 'Торговый дом МАЗ';
                 <div class="slide-all">
                     <!-- layer 1 -->
                     <div class="layer-1">
-                        <h2 class="title5">Каталог МАЗ</h2>
+                        <h3 class="title5">Торговая площадка МАЗ</h3>
                     </div>
                     <!-- layer 2 -->
                     <div class="layer-2">
-                        <h2 class="title6">все запчасти</h2>
+                        <h2 class="title6">запчасти на ваш выбор</h2>
                     </div>
                     <!-- layer 2 -->
                     <div class="layer-2">
-                        <p class="title0">на любую технику МАЗ</p>
+                        <p class="title0">на технику МАЗ</p>
                     </div>
                     <!-- layer 3 -->
                     <div class="layer-3">

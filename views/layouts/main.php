@@ -232,7 +232,10 @@ AppAsset::register($this);
                                         <button type="submit"><i class="pe-7s-search"></i></button>
                                     </form>
                                 </li>
-                                <li class="drop-cart-icon"><a href="<?=Url::toRoute('site/shoppingcart')?>"><i class="fa fa-shopping-cart"></i><span class="color1">*</span></a>
+                                <li class="drop-cart-icon" id="drop-cart-clear">
+                                    <a href="<?=Url::toRoute('site/shoppingcart')?>"><i class="fa fa-shopping-cart"></i>
+                                        <span class="color1"></span>
+                                    </a>
                                     <ul class="drop-cart">
                                         <!-------------------->
 

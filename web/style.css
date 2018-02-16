@@ -100,6 +100,9 @@ hr.line {
     height: 100%;
     vertical-align: middle;
 }
+.drop-cart-view{
+    color: #b11512 !important;
+}
 .col-text-center{
   float: none !important;
   margin-left: auto !important;
@@ -389,7 +392,7 @@ ul.drop-setting li,.mainmenu ul li ul li {
 	display: block;
 }
 .total-amount {
-  padding: 10px 20px !important;
+  padding: 0px 0px !important; /*10px ~ 0px  20px~0px*/
 }
 .right-header .total-amount span {position: unset;}
 .add-cart-text p, .add-cart-text p a {
@@ -663,10 +666,10 @@ ul.drop-setting li,.mainmenu ul li ul li {
   text-align: center;
 }
 h2.title6 {
-  font-size: 79px;
+  font-size: 30px; /*  79px*/
   font-weight: 400;
   letter-spacing: 7px;
-  line-height: 79px;
+  line-height: 45px;
   margin: 0;
   text-transform: uppercase;
 }
@@ -2534,7 +2537,7 @@ h4.yith-wcwl-share-title {
     vertical-align: middle;
 }
 .checkout-coupon.top.log.a-an, .checkout-coupon.top-down.log.a-an {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .inline2 > input {
     margin-right: 11px;
@@ -2547,6 +2550,7 @@ h4.yith-wcwl-share-title {
     border: 0;
     outline: none;
     background-color: #ffffff;
+    padding-top: 12px;
 }
 .tb-login-form > form > p.login-submit5 > input {
   border: 1px solid #f0f0f0;
@@ -2608,6 +2612,12 @@ h4.yith-wcwl-share-title {
     margin-bottom: 33px;
 }
 .forgot-password1 .inline2 > em {
+    color: #ef6644;
+    font-size: 15px;
+    right: -10px;
+    top: 0;
+}
+.forgot-password1 .inline2 > span>em {
     color: #ef6644;
     font-size: 15px;
     right: -10px;
@@ -4723,6 +4733,79 @@ h2.page-title {
   height: 17px;
   width: 17px;
 }
+/***---------------------------------
+-------------check тест-----------
+---------------------------------------- */
+.label-cbx {
+    user-select: none;
+    cursor: pointer;
+}
+.label-cbx input:checked + .checkbox {
+    border-color: #E84C3D;
+}
+.label-cbx input:checked + .checkbox svg path {
+    fill: #E84C3D;
+}
+.label-cbx input:checked + .checkbox svg polyline {
+    stroke-dashoffset: 0;
+}
+.label-cbx:hover .checkbox svg path {
+    stroke-dashoffset: 0;
+}
+.label-cbx .checkbox {
+    position: relative;
+    /*top: 2px;*/
+    float: left;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #C8CCD4;
+    border-radius: 3px;
+}
+.label-cbx .checkbox svg {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+.label-cbx .checkbox svg path {
+    fill: none;
+    stroke: #E84C3D;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 71px;
+    stroke-dashoffset: 71px;
+    transition: all 0.6s ease;
+}
+.label-cbx .checkbox svg polyline {
+    fill: none;
+    stroke: #FFF;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 18px;
+    stroke-dashoffset: 18px;
+    transition: all 0.3s ease;
+}
+.label-cbx > span {
+    pointer-events: none;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.invisible {
+    position: absolute;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+/*----------------------------------
+-----------------------------------------
+------------------------------------ */
+
 
 /*====================================================================
 							[ END ]

@@ -41,31 +41,52 @@ use yii\bootstrap\Modal;
 <!--                                    <span class="count">(10)</span>-->
 <!--                                </li>-->
 <!--                            --><?php //endforeach;?>
-
-                            </li>
+                                <label for="cbx" class="label-cbx">
+                                    <input id="cbx" type="checkbox" class="invisible">
+                                    <div class="checkbox">
+                                        <svg width="20px" height="20px" viewBox="0 0 20 20">
+                                            <path d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z"></path>
+                                            <polyline points="4 11 8 15 16 6"></polyline>
+                                        </svg>
+                                    </div>
+                                    <span>Категория 1</span>
+                                </label><br>
+                            <label for="cbx1" class="label-cbx">
+                                <input id="cbx1" type="checkbox" class="invisible">
+                                <div class="checkbox">
+                                    <svg width="20px" height="20px" viewBox="0 0 20 20">
+                                        <path d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z"></path>
+                                        <polyline points="4 11 8 15 16 6"></polyline>
+                                    </svg>
+                                </div>
+                                <span>Категория 2</span>
+                            </label><br>
+                            <label for="cbx2" class="label-cbx">
+                                <input id="cbx2" type="checkbox" class="invisible">
+                                <div class="checkbox">
+                                    <svg width="20px" height="20px" viewBox="0 0 20 20">
+                                        <path d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z"></path>
+                                        <polyline points="4 11 8 15 16 6"></polyline>
+                                    </svg>
+                                </div>
+                                <span>Категория 3</span>
+                            </label><br>
+                            <label for="cbx4" class="label-cbx">
+                                <input id="cbx4" type="checkbox" class="invisible">
+                                <div class="checkbox">
+                                    <svg width="20px" height="20px" viewBox="0 0 20 20">
+                                        <path d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z"></path>
+                                        <polyline points="4 11 8 15 16 6"></polyline>
+                                    </svg>
+                                </div>
+                                <span>Категория 4</span>
+                            </label>
                         </ul>
                     </div>
 
                     <div class="shop-one">
                         <h3 class="wg-title2">-------------</h3>
-                        <ul class="product-categories">
-                            <li class="cat-item">
-                                <a href="#">-----</a>
-                                <span class="count">(1)</span>
-                            </li>
-                            <li class="cat-item">
-                                <a href="#">----</a>
-                                <span class="count">(1)</span>
-                            </li>
-                            <li class="cat-item-10">
-                                <a href="#">-----</a>
-                                <span class="count">(1)</span>
-                            </li>
-                            <li class="cat-item">
-                                <a href="#">---</a>
-                                <span class="count">(1)</span>
-                            </li>
-                        </ul>
+
                     </div>
                     <div class="shop-one re-shop-one">
                         <h3 class="wg-title2">ценовой диапазон</h3>

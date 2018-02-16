@@ -49,13 +49,24 @@ $this->params['breadcrumbs'][] = $this->title;
                             <input type="password" placeholder="Введите пароль">
                         </p>
                         <div class="forgot-password1">
-                            <label class="inline2">
-                                <input type="checkbox" name="rememberme7">
-                                Запоминить меня <em>*</em>
+<!--                            <label class="inline2">-->
+<!--                                <input type="checkbox" name="rememberme7">-->
+<!--                                Запоминить меня <em>*</em>-->
+<!--                            </label>-->
+
+                            <label for="log-zap" class="label-cbx inline2">
+                                <input id="log-zap" type="checkbox" class="invisible">
+                                <div class="checkbox">
+                                    <svg width="20px" height="20px" viewBox="0 0 20 20">
+                                        <path d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z"></path>
+                                        <polyline points="4 11 8 15 16 6"></polyline>
+                                    </svg>
+                                </div>
+                                <span>Запомнить меня <em>*</em></span>
                             </label>
+
                             <!--                            <a class="forgot-password" href="--><?//=Url::toRoute('modal/sendemail')?><!--">Забыли пароль?</a>-->
                             <a class="forgot-password" data-original-title="Забыли пароль?" data-toggle="modal" data-trigger="hover" data-target="#quick-view" data-placement="top" href="#">Забыли пароль?
-                                <i class="fa fa-eye"></i>
                             </a>
                             <div class="quick-view modal fade in" id="quick-view">
                                 <div class="col-md-3 col-md-offset-5">
